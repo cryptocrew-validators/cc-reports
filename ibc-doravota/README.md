@@ -24,6 +24,6 @@ ERROR transfer error: failed while submitting the Transfer message to chain vota
 ```
 
 ## Action items:
-[] Debug Sei client creation issue
-[] Create substitution client for `archway-1`
-[] Pass client substitution proposal on `vota-ash`
+- [ ] Debug Sei client creation issue
+- [ ] Create substitution client for `archway-1`
+- [ ] Pass client substitution proposal on `vota-ash`
