@@ -1,0 +1,122 @@
+[mode.clients]
+enabled = true
+refresh = true
+misbehaviour = true
+
+[mode.connections]
+enabled = false
+
+[mode.channels]
+enabled = false
+
+[mode.packets]
+enabled = true
+clear_interval = 25
+clear_on_start = true
+tx_confirmation = true
+
+[[chains]]
+id = 'vota-ash'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+    [ 'transfer', 'channel-0' ], # osmosis-1
+    [ 'transfer', 'channel-1' ], # archway-1
+    [ 'transfer', 'channel-2' ], # coreum-mainnet-1
+    [ 'transfer', 'channel-3' ], # pirin-1
+    [ 'transfer', 'channel-4' ], # cosmoshub-4
+    [ 'transfer', 'channel-5' ], # injective-1
+    [ 'transfer', 'channel-6' ], # dydx-mainnet-1
+    [ 'transfer', 'channel-7' ], # akashnet-2
+
+]
+
+[[chains]]
+id = 'osmosis-1'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+    [ 'transfer', 'channel-2694' ], # doravota
+
+]
+
+[[chains]]
+id = 'cosmoshub-4'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+    [ 'transfer', 'channel-750' ], # doravota
+
+]
+
+[[chains]]
+id = "pirin-1"
+[chains.packet_filter]
+policy = "allow"
+list = [
+
+  [ 'transfer', 'channel-4092' ], # doravota
+
+]
+
+
+[[chains]]
+id = "akashnet-2"
+[chains.packet_filter]
+policy = "allow"
+list = [ 
+  
+  [ "transfer", "channel-125" ], # doravota
+
+]
+
+[[chains]]
+id = "injective-1"
+[chains.packet_filter]
+policy = "allow"
+list = [
+
+  [ "transfer", "channel-182" ], # doravota
+
+]
+
+[[chains]]
+id = 'archway-1'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  [ "transfer", "channel-32" ], # doravota
+
+]
+
+[[chains]]
+id = "pacific-1"
+[chains.packet_filter]
+policy = "allow"
+list = [ 
+
+]
+
+[[chains]]
+id = 'dydx-mainnet-1'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  [ 'transfer', 'channel-15' ], # doravota
+
+]
+
+[[chains]]
+id = 'coreum-mainnet-1'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  [ 'transfer', 'channel-10' ], # doravota
+
+]
