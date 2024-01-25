@@ -3,3 +3,4 @@ blumbus_111-1, 07-tendermint-0, connection-0, channel-0, transfer, axelar-testne
 blumbus_111-1, 07-tendermint-1, connection-1, channel-1, transfer, kava_2221-16000, 07-tendermint-24, connection-85, channel-74, transfer
 blumbus_111-1, 07-tendermint-2, connection-2, channel-2, transfer, mocha-4, 07-tendermint-126, connection-106, channel-28, transfer
 blumbus_111-1, 07-tendermint-8, connection-3, channel-3, transfer, grand-1, 07-tendermint-58, connection-43, channel-34, transfer
+blumbus_111-1, 07-tendermint-14, connection-4, channel-4, transfer, theta-testnet-001, 07-tendermint-2757, connection-3091, channel-3557, transfer
