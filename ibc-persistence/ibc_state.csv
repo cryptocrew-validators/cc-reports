@@ -1,3 +1,4 @@
+CHAIN_ID, CLIENT, CONNECTION, CHANNEL, PORT, COUNTERPARTY_CHAIN, COUNTERPARTY_CLIENT, COUNTERPARTY_CONNECTION, COUNTERPARTY_CHANNEL, COUNTERPARTY_PORT
 core-1, 07-tendermint-6, connection-5, channel-144, icacontroller-osmosis-1.rewards, osmosis-1, 07-tendermint-3, connection-4, channel-15078, icahost
 core-1, 07-tendermint-6, connection-5, channel-147, icacontroller-osmosis-1.delegate, osmosis-1, 07-tendermint-3, connection-4, channel-16254, icahost
 core-1, 07-tendermint-6, connection-5, channel-6, transfer, osmosis-1, 07-tendermint-3, connection-4, channel-4, transfer
