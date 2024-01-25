@@ -1,0 +1,5 @@
+CHAIN_ID, CLIENT, CONNECTION, CHANNEL, PORT, COUNTERPARTY_CHAIN, COUNTERPARTY_CLIENT, COUNTERPARTY_CONNECTION, COUNTERPARTY_CHANNEL, COUNTERPARTY_PORT
+blumbus_111-1, 07-tendermint-0, connection-0, channel-0, transfer, axelar-testnet-lisbon-3, 07-tendermint-801, connection-612, channel-400, transfer
+blumbus_111-1, 07-tendermint-1, connection-1, channel-1, transfer, kava_2221-16000, 07-tendermint-24, connection-85, channel-74, transfer
+blumbus_111-1, 07-tendermint-2, connection-2, channel-2, transfer, mocha-4, 07-tendermint-126, connection-106, channel-28, transfer
+blumbus_111-1, 07-tendermint-8, connection-3, channel-3, transfer, grand-1, 07-tendermint-58, connection-43, channel-34, transfer
