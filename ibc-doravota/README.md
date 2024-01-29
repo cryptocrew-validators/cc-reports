@@ -14,4 +14,5 @@
 | core1t59rf5hjnf5erlgnkk24gj8a43lp9djcyfem9y  | coreum    | 110        | CORE  |
 
 ## Action items:
-- [ ] Debug Sei channel creation issue
+- [x] Create new channels for Sei
+- [x] Join Archway channels

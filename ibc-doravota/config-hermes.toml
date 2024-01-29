@@ -22,13 +22,14 @@ policy = 'allow'
 list = [ 
 
     [ 'transfer', 'channel-0' ], # osmosis-1
-    [ 'transfer', 'channel-1' ], # archway-1
+    [ 'transfer', 'channel-10' ], # archway-1
     [ 'transfer', 'channel-2' ], # coreum-mainnet-1
     [ 'transfer', 'channel-3' ], # pirin-1
     [ 'transfer', 'channel-4' ], # cosmoshub-4
     [ 'transfer', 'channel-5' ], # injective-1
     [ 'transfer', 'channel-6' ], # dydx-mainnet-1
     [ 'transfer', 'channel-7' ], # akashnet-2
+    [ 'transfer', 'channel-12' ], # pacific-1
 
 ]
 
@@ -89,7 +90,7 @@ id = 'archway-1'
 policy = 'allow'
 list = [
 
-  [ "transfer", "channel-32" ], # doravota
+  [ "transfer", "channel-101" ], # doravota
 
 ]
 
@@ -98,6 +99,8 @@ id = "pacific-1"
 [chains.packet_filter]
 policy = "allow"
 list = [ 
+
+  [ 'transfer', 'channel-64' ], # doravota
 
 ]
 

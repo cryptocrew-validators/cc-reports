@@ -1,9 +1,10 @@
 CHAIN_ID, CLIENT, CONNECTION, CHANNEL, PORT, COUNTERPARTY_CHAIN, COUNTERPARTY_CLIENT, COUNTERPARTY_CONNECTION, COUNTERPARTY_CHANNEL, COUNTERPARTY_PORT
 vota-ash, 07-tendermint-0, connection-1, channel-0, transfer, osmosis-1, 07-tendermint-2959, connection-2454, channel-2694, transfer
-vota-ash, 07-tendermint-10, connection-3, channel-1, transfer, archway-1, 07-tendermint-34, connection-37, channel-32, transfer
 vota-ash, 07-tendermint-12, connection-4, channel-2, transfer, coreum-mainnet-1, 07-tendermint-12, connection-12, channel-10, transfer
 vota-ash, 07-tendermint-13, connection-5, channel-3, transfer, pirin-1, 07-tendermint-14, connection-12, channel-4092, transfer
 vota-ash, 07-tendermint-14, connection-8, channel-4, transfer, cosmoshub-4, 07-tendermint-1191, connection-920, channel-750, transfer
 vota-ash, 07-tendermint-15, connection-9, channel-5, transfer, injective-1, 07-tendermint-245, connection-239, channel-182, transfer
 vota-ash, 07-tendermint-16, connection-10, channel-6, transfer, dydx-mainnet-1, 07-tendermint-15, connection-21, channel-15, transfer
 vota-ash, 07-tendermint-17, connection-11, channel-7, transfer, akashnet-2, 07-tendermint-183, connection-171, channel-125, transfer
+vota-ash, 07-tendermint-20, connection-24, channel-10, transfer, archway-1, 07-tendermint-66, connection-72, channel-101, transfer
+vota-ash, 07-tendermint-21, connection-27, channel-12, transfer, pacific-1, 07-tendermint-109, connection-153, channel-64, transfer
