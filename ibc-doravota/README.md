@@ -14,5 +14,45 @@
 | core1t59rf5hjnf5erlgnkk24gj8a43lp9djcyfem9y  | coreum    | 110        | CORE  |
 
 ## Action items:
-- [x] Create new channels for Sei
-- [x] Join Archway channels
+- [ ] Create substitution clients after vota-ash hardfork
+- [ ] Create client update proposals on counterparty chains 
+
+### Client substitution
+
+chain_id: `osmosis-1`
+subject_client: `07-tendermint-2959`
+substitute_client: `07-tendermint-3083`
+```
+18c18
+<             height: 2581229,
+---
+>             height: 2596982,
+90,95c90
+<         frozen_height: Some(
+<             Height {
+<                 revision: 0,
+<                 height: 1,
+<             },
+<         ),
+---
+>         frozen_height: None,
+```
+
+chain_id: `cosmoshub-4`
+subject_client: `07-tendermint-1191`
+substitute_client: `07-tendermint-1204`
+```
+18c18
+<             height: 2581229,
+---
+>             height: 2597075,
+90,95c90
+<         frozen_height: Some(
+<             Height {
+<                 revision: 0,
+<                 height: 1,
+<             },
+<         ),
+---
+>         frozen_height: None,
+```
