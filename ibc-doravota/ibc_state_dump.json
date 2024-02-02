@@ -1,0 +1,1515 @@
+[
+  {
+    "channel_ends": {
+      "result": {
+        "chain_id": "vota-ash",
+        "channel_id": "channel-0",
+        "client_id": "07-tendermint-0",
+        "connection_id": "connection-1",
+        "counterparty_chain_id": "osmosis-1",
+        "counterparty_channel_id": "channel-2694",
+        "counterparty_client_id": "07-tendermint-2959",
+        "counterparty_connection_id": "connection-2454",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "counterparty_channel_ends": {
+      "result": {
+        "chain_id": "osmosis-1",
+        "channel_id": "channel-2694",
+        "client_id": "07-tendermint-2959",
+        "connection_id": "connection-2454",
+        "counterparty_chain_id": "vota-ash",
+        "counterparty_channel_id": "channel-0",
+        "counterparty_client_id": "07-tendermint-0",
+        "counterparty_connection_id": "connection-1",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "osmosis-1",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 13578873,
+          "revision_number": 1
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 806400
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "counterparty_client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "vota-ash",
+        "frozen_height": {
+          "revision_height": 1,
+          "revision_number": 0
+        },
+        "latest_height": {
+          "revision_height": 2581229,
+          "revision_number": 0
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "client_status": {
+      "result": "Active",
+      "status": "success"
+    },
+    "counterparty_client_status": {
+      "result": "Frozen",
+      "status": "success"
+    }
+  },
+  {
+    "channel_ends": {
+      "result": {
+        "chain_id": "vota-ash",
+        "channel_id": "channel-1",
+        "client_id": "07-tendermint-10",
+        "connection_id": "connection-3",
+        "counterparty_chain_id": "archway-1",
+        "counterparty_channel_id": "channel-32",
+        "counterparty_client_id": "07-tendermint-34",
+        "counterparty_connection_id": "connection-37",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "counterparty_channel_ends": {
+      "result": {
+        "chain_id": "archway-1",
+        "channel_id": "channel-32",
+        "client_id": "07-tendermint-34",
+        "connection_id": "connection-37",
+        "counterparty_chain_id": "vota-ash",
+        "counterparty_channel_id": "channel-1",
+        "counterparty_client_id": "07-tendermint-10",
+        "counterparty_connection_id": "connection-3",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "archway-1",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 1168377,
+          "revision_number": 1
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "counterparty_client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "vota-ash",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 358086,
+          "revision_number": 0
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "client_status": {
+      "result": "Expired",
+      "status": "success"
+    },
+    "counterparty_client_status": {
+      "result": "Expired",
+      "status": "success"
+    }
+  },
+  {
+    "channel_ends": {
+      "result": {
+        "chain_id": "vota-ash",
+        "channel_id": "channel-2",
+        "client_id": "07-tendermint-12",
+        "connection_id": "connection-4",
+        "counterparty_chain_id": "coreum-mainnet-1",
+        "counterparty_channel_id": "channel-10",
+        "counterparty_client_id": "07-tendermint-12",
+        "counterparty_connection_id": "connection-12",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "counterparty_channel_ends": {
+      "result": {
+        "chain_id": "coreum-mainnet-1",
+        "channel_id": "channel-10",
+        "client_id": "07-tendermint-12",
+        "connection_id": "connection-12",
+        "counterparty_chain_id": "vota-ash",
+        "counterparty_channel_id": "channel-2",
+        "counterparty_client_id": "07-tendermint-12",
+        "counterparty_connection_id": "connection-4",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "coreum-mainnet-1",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 15410759,
+          "revision_number": 1
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 403200
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 604800
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "counterparty_client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "vota-ash",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 2581229,
+          "revision_number": 0
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "client_status": {
+      "result": "Active",
+      "status": "success"
+    },
+    "counterparty_client_status": {
+      "result": "Active",
+      "status": "success"
+    }
+  },
+  {
+    "channel_ends": {
+      "result": {
+        "chain_id": "vota-ash",
+        "channel_id": "channel-3",
+        "client_id": "07-tendermint-13",
+        "connection_id": "connection-5",
+        "counterparty_chain_id": "pirin-1",
+        "counterparty_channel_id": "channel-4092",
+        "counterparty_client_id": "07-tendermint-14",
+        "counterparty_connection_id": "connection-12",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "counterparty_channel_ends": {
+      "result": {
+        "chain_id": "pirin-1",
+        "channel_id": "channel-4092",
+        "client_id": "07-tendermint-14",
+        "connection_id": "connection-12",
+        "counterparty_chain_id": "vota-ash",
+        "counterparty_channel_id": "channel-3",
+        "counterparty_client_id": "07-tendermint-13",
+        "counterparty_connection_id": "connection-5",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "pirin-1",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 3802532,
+          "revision_number": 1
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "counterparty_client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "vota-ash",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 2581229,
+          "revision_number": 0
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "client_status": {
+      "result": "Active",
+      "status": "success"
+    },
+    "counterparty_client_status": {
+      "result": "Active",
+      "status": "success"
+    }
+  },
+  {
+    "channel_ends": {
+      "result": {
+        "chain_id": "vota-ash",
+        "channel_id": "channel-4",
+        "client_id": "07-tendermint-14",
+        "connection_id": "connection-8",
+        "counterparty_chain_id": "cosmoshub-4",
+        "counterparty_channel_id": "channel-750",
+        "counterparty_client_id": "07-tendermint-1191",
+        "counterparty_connection_id": "connection-920",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "counterparty_channel_ends": {
+      "result": {
+        "chain_id": "cosmoshub-4",
+        "channel_id": "channel-750",
+        "client_id": "07-tendermint-1191",
+        "connection_id": "connection-920",
+        "counterparty_chain_id": "vota-ash",
+        "counterparty_channel_id": "channel-4",
+        "counterparty_client_id": "07-tendermint-14",
+        "counterparty_connection_id": "connection-8",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "cosmoshub-4",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 18980608,
+          "revision_number": 4
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "counterparty_client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "vota-ash",
+        "frozen_height": {
+          "revision_height": 1,
+          "revision_number": 0
+        },
+        "latest_height": {
+          "revision_height": 2581229,
+          "revision_number": 0
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "client_status": {
+      "result": "Active",
+      "status": "success"
+    },
+    "counterparty_client_status": {
+      "result": "Frozen",
+      "status": "success"
+    }
+  },
+  {
+    "channel_ends": {
+      "result": {
+        "chain_id": "vota-ash",
+        "channel_id": "channel-5",
+        "client_id": "07-tendermint-15",
+        "connection_id": "connection-9",
+        "counterparty_chain_id": "injective-1",
+        "counterparty_channel_id": "channel-182",
+        "counterparty_client_id": "07-tendermint-245",
+        "counterparty_connection_id": "connection-239",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "counterparty_channel_ends": {
+      "result": {
+        "chain_id": "injective-1",
+        "channel_id": "channel-182",
+        "client_id": "07-tendermint-245",
+        "connection_id": "connection-239",
+        "counterparty_chain_id": "vota-ash",
+        "counterparty_channel_id": "channel-5",
+        "counterparty_client_id": "07-tendermint-15",
+        "counterparty_connection_id": "connection-9",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "injective-1",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 59090073,
+          "revision_number": 1
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "counterparty_client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "vota-ash",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 2581229,
+          "revision_number": 0
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "client_status": {
+      "result": "Active",
+      "status": "success"
+    },
+    "counterparty_client_status": {
+      "result": "Active",
+      "status": "success"
+    }
+  },
+  {
+    "channel_ends": {
+      "result": {
+        "chain_id": "vota-ash",
+        "channel_id": "channel-6",
+        "client_id": "07-tendermint-16",
+        "connection_id": "connection-10",
+        "counterparty_chain_id": "dydx-mainnet-1",
+        "counterparty_channel_id": "channel-15",
+        "counterparty_client_id": "07-tendermint-15",
+        "counterparty_connection_id": "connection-21",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "counterparty_channel_ends": {
+      "result": {
+        "chain_id": "dydx-mainnet-1",
+        "channel_id": "channel-15",
+        "client_id": "07-tendermint-15",
+        "connection_id": "connection-21",
+        "counterparty_chain_id": "vota-ash",
+        "counterparty_channel_id": "channel-6",
+        "counterparty_client_id": "07-tendermint-16",
+        "counterparty_connection_id": "connection-10",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "dydx-mainnet-1",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 7447158,
+          "revision_number": 1
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1728000
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 2592000
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "counterparty_client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "vota-ash",
+        "frozen_height": {
+          "revision_height": 1,
+          "revision_number": 0
+        },
+        "latest_height": {
+          "revision_height": 2581229,
+          "revision_number": 0
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "client_status": {
+      "result": "Active",
+      "status": "success"
+    },
+    "counterparty_client_status": {
+      "result": "Frozen",
+      "status": "success"
+    }
+  },
+  {
+    "channel_ends": {
+      "result": {
+        "chain_id": "vota-ash",
+        "channel_id": "channel-7",
+        "client_id": "07-tendermint-17",
+        "connection_id": "connection-11",
+        "counterparty_chain_id": "akashnet-2",
+        "counterparty_channel_id": "channel-125",
+        "counterparty_client_id": "07-tendermint-183",
+        "counterparty_connection_id": "connection-171",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "counterparty_channel_ends": {
+      "result": {
+        "chain_id": "akashnet-2",
+        "channel_id": "channel-125",
+        "client_id": "07-tendermint-183",
+        "connection_id": "connection-171",
+        "counterparty_chain_id": "vota-ash",
+        "counterparty_channel_id": "channel-7",
+        "counterparty_client_id": "07-tendermint-17",
+        "counterparty_connection_id": "connection-11",
+        "counterparty_port_id": "transfer",
+        "port_id": "transfer"
+      },
+      "status": "success"
+    },
+    "client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "akashnet-2",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 14829020,
+          "revision_number": 2
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "counterparty_client_state": {
+      "result": {
+        "allow_update": {
+          "after_expiry": true,
+          "after_misbehaviour": true
+        },
+        "chain_id": "vota-ash",
+        "frozen_height": null,
+        "latest_height": {
+          "revision_height": 2581229,
+          "revision_number": 0
+        },
+        "max_clock_drift": {
+          "nanos": 0,
+          "secs": 40
+        },
+        "proof_specs": [
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 33,
+              "hash": "SHA256",
+              "maxPrefixLength": 12,
+              "minPrefixLength": 4
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          },
+          {
+            "innerSpec": {
+              "childOrder": [
+                0,
+                1
+              ],
+              "childSize": 32,
+              "hash": "SHA256",
+              "maxPrefixLength": 1,
+              "minPrefixLength": 1
+            },
+            "leafSpec": {
+              "hash": "SHA256",
+              "length": "VAR_PROTO",
+              "prefix": "AA==",
+              "prehashValue": "SHA256"
+            }
+          }
+        ],
+        "trust_threshold": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "trusting_period": {
+          "nanos": 0,
+          "secs": 1209600
+        },
+        "type": "Tendermint",
+        "unbonding_period": {
+          "nanos": 0,
+          "secs": 1814400
+        },
+        "upgrade_path": [
+          "upgrade",
+          "upgradedIBCState"
+        ]
+      },
+      "status": "success"
+    },
+    "client_status": {
+      "result": "Active",
+      "status": "success"
+    },
+    "counterparty_client_status": {
+      "result": "Active",
+      "status": "success"
+    }
+  }
+]
