@@ -164,14 +164,13 @@ host: E2197CB826519A6117ED72BD8084AACF0D461DD8A742FC63EFAF56DB5AF7CCA3
 reference: E2197CB826519A6117ED72BD8084AACF0D461DD8A742FC63EFAF56DB5AF7CCA3  
 ❌ subject client NOT VALID!  
 ✅ substitute client valid!
-----------------------------------  
 
 ### Live on-chain proposals
 
 - cosmoshub proposal: https://www.mintscan.io/cosmos/proposals/877
 - osmosis proposal: https://www.mintscan.io/osmosis/proposals/722
-
-### `update-client` proposal issue on `dydx-mainnet-1`
+---
+## `update-client` proposal issue on `dydx-mainnet-1`
 
 Proposing the client update on dydx mainnet results in an unexpected error thrown by the RPC.
 
