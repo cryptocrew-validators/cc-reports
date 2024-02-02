@@ -162,15 +162,17 @@ Due to the time-sensitive nature of the process, this proposal was not drafted o
 
 Please note that during the hard fork state migration on doravota, only 4 empty blocks were removed and no transactions were invalidated. The following difference in the reference is therefore expected.  
 
->>> subject client id: 07-tendermint-1191 - last revision: 0 height: 2581229  
+> subject client id: 07-tendermint-1191 - last revision: 0 height: 2581229  
 host: DD1EBAA0B48F7BDED90919E0910A2A237E1637C163E7C9143204C6F5356F29E0  
 reference: 2AF290F2245BD4AD39C72F191E45A26A959E4FB3710D9AA4FBFDECA8136A664D  
 <<< substit client id: 07-tendermint-1204 - last revision: 0 height: 2597996  
 host: E2197CB826519A6117ED72BD8084AACF0D461DD8A742FC63EFAF56DB5AF7CCA3  
 reference: E2197CB826519A6117ED72BD8084AACF0D461DD8A742FC63EFAF56DB5AF7CCA3  
-----------------------------------  
 ❌ subject client NOT VALID!  
 ✅ substitute client valid!
+----------------------------------  
+
+### Live on-chain proposals
 
 - cosmoshub proposal: https://www.mintscan.io/cosmos/proposals/877
 - osmosis proposal: https://www.mintscan.io/osmosis/proposals/722
