@@ -75,8 +75,7 @@
 ---
 >         frozen_height: None,
 ```
-
-
+---
 ### Clients in `active` status:
 
 - chain_id: `injective-1`
@@ -139,7 +138,7 @@
 ---
 >             height: 2600182,
 ```
-
+---
 ### Proposal
 
 Proposal Title:  
