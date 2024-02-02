@@ -193,14 +193,13 @@ update-client-prop.json:
 }
 ```
 
-
+The following error is questionable & maybe an issue:
 ```
 dydxprotocold tx gov submit-legacy-proposal update-client 07-tendermint-15 07-tendermint-19 --description "After a hard fork of the doravota chain \`vota-ash\`, related to a recently discovered issue in [Cosmos-SDK v0.47](https://github.com/cosmos/cosmos-sdk/issues/19321), all IBC lights on counterparty chains have frozen. During the hard fork, only 4 empty blocks were removed and no transactions were invalidated. This proposal substitutes the previously used IBC light client for doravota. The passing of this proposal is necessary to unblock IBC channels between the two chains that rely on the subject client." --title "Substitute IBC light client for doravota" --chain-id dydx-mainnet-1 --gas auto --gas-adjustment 1.5 --gas-prices 0.026ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5 --node https://rpc.cosmos.directory:443/dydx --from ...--deposit 10000000000000000000000adydx
 Error: rpc error: code = Unknown desc = rpc error: code = Unknown desc = unsupported msg: invalid request [dydxprotocol/v4-chain/protocol/app/ante/msg_type.go:66] With gas wanted: '18446744073709551615' and gas used: '0' : unknown request
 ```
-// ^ this one is questionable & maybe an issue
 
-// below ones are sanity checks:
+Below ones are sanity checks:
 ```
 dydxprotocold tx gov submit-legacy-proposal ./update-client-prop.json --chain-id dydx-mainnet-1 --gas auto --gas-adjustment 1.5 --gas-prices 0.026ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5 --node https://rpc.cosmos.directory:443/dydx --from ...
 Error: failed to parse proposal: proposal type is required
