@@ -82,47 +82,43 @@
 - chain_id: `injective-1`
 - subject_client: `07-tendermint-245`
 - substitute_client: `07-tendermint-251`
-
 ```
 18c18
 <             height: 2581229,
 ---
 >             height: 2599734,
 ```
-
+---
 - chain_id: `akashnet-2`
 - subject_client: `07-tendermint-183`
 - substitute_client: `07-tendermint-185`
-
 ```
 18c18
 <             height: 2581229,
 ---
 >             height: 2600041
 ```
-
+---
 - chain_id: `archway-1`
 - subject_client: `07-tendermint-34`
 - substitute_client: `07-tendermint-72`
-
 ```
 18c18
 <             height: 358086,
 ---
 >             height: 2600089,
 ```
-
+---
 - chain_id: `pirin-1`
 - subject_client: `07-tendermint-14`
 - substitute_client: `07-tendermint-15`
-
 ```
 18c18
 <             height: 2581229,
 ---
 >             height: 2600104,
 ```
-
+---
 - chain_id: `coreum-mainnet-1`
 - subject_client: `07-tendermint-12`
 - substitute_client: `07-tendermint-42`
@@ -133,11 +129,10 @@
 ---
 >             height: 2600118,
 ```
-
+---
 - chain_id: `pacific-1`
 - subject_client: `07-tendermint-109`
 - substitute_client: `07-tendermint-110`
-
 ```
 18c18
 <             height: 2581229,
