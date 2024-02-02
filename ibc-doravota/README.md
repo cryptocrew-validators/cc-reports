@@ -60,5 +60,5 @@
 Proposal Title:  
 "Substitute IBC light client for doravota"  
 
-Proposal Text:
+Proposal Text:  
 "After a hard fork of the doravota chain `vota-ash`, related to a recently discovered issue in [Cosmos-SDK v0.47](https://github.com/cosmos/cosmos-sdk/issues/19321), all IBC lights on counterparty chains have frozen. This proposal substitutes the previously used IBC light client for doravota. The passing of this proposal is necessary to unblock IBC channels between the two chains that rely on the subject client."
