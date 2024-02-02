@@ -37,7 +37,7 @@
 ---
 >         frozen_height: None,
 ```
-
+---
 - chain_id: `cosmoshub-4`
 - subject_client: `07-tendermint-1191`
 - substitute_client: `07-tendermint-1204`
@@ -56,7 +56,7 @@
 ---
 >         frozen_height: None,
 ```
-
+---
 - chain_id: `dydx-mainnet-1`
 - subject_client: `07-tendermint-15`
 - substitute_client: `07-tendermint-19`
