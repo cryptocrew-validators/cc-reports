@@ -74,6 +74,7 @@
 <         ),
 ---
 >         frozen_height: None,
+```
 
 
 ### Clients in `active` status:
