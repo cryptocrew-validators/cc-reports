@@ -19,9 +19,9 @@
 
 ### Client substitution
 
-chain_id: `osmosis-1`
-subject_client: `07-tendermint-2959`
-substitute_client: `07-tendermint-3083`
+- chain_id: `osmosis-1`
+- subject_client: `07-tendermint-2959`
+- substitute_client: `07-tendermint-3083`
 ```
 18c18
 <             height: 2581229,
@@ -38,9 +38,9 @@ substitute_client: `07-tendermint-3083`
 >         frozen_height: None,
 ```
 
-chain_id: `cosmoshub-4`
-subject_client: `07-tendermint-1191`
-substitute_client: `07-tendermint-1204`
+- chain_id: `cosmoshub-4`
+- subject_client: `07-tendermint-1191`
+- substitute_client: `07-tendermint-1204`
 ```
 18c18
 <             height: 2581229,
@@ -58,7 +58,10 @@ substitute_client: `07-tendermint-1204`
 ```
 
 Proposal Title:  
-"Substitute IBC light client for doravota"
-
-Proposal Text:  
-"After a hard fork of the doravota chain `vota-ash`, related to a recently discovered issue in [Cosmos-SDK v0.47](https://github.com/cosmos/cosmos-sdk/issues/19321), all IBC lights on counterparty chains have frozen. This proposal substitutes the previously used IBC light client for doravota. The passing of this proposal is necessary to unblock IBC channels between the two chains that rely on the subject client."
+```
+Substitute IBC light client for doravota
+```
+Proposal Text:
+```  
+After a hard fork of the doravota chain `vota-ash`, related to a recently discovered issue in [Cosmos-SDK v0.47](https://github.com/cosmos/cosmos-sdk/issues/19321), all IBC lights on counterparty chains have frozen. This proposal substitutes the previously used IBC light client for doravota. The passing of this proposal is necessary to unblock IBC channels between the two chains that rely on the subject client.
+```
