@@ -14,8 +14,8 @@
 | core1t59rf5hjnf5erlgnkk24gj8a43lp9djcyfem9y  | coreum    | 110        | CORE  |
 
 ## Action items:
-- [ ] Create substitution clients after vota-ash hardfork
-- [ ] Create client update proposals on counterparty chains 
+- [x] Create substitution clients after vota-ash hardfork on osmosis and cosmoshub
+- [ ] Create client update proposals on osmosis and cosmoshub
 
 ### Client substitution
 
