@@ -1,0 +1,138 @@
+# memo_prefix = 'relayed by CryptoCrew Validators'
+
+[[chains]]
+id = 'dymension_1100-1'
+client_refresh_rate = '1/30'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  ['transfer','channel-0'], # stride-1
+  ['transfer','channel-1'], # cosmoshub-4
+  ['transfer','channel-2'], # osmosis-1
+  ['transfer','channel-3'], # kava_2222-10
+  ['transfer','channel-4'], # celestia
+  ['transfer','channel-5'], # axelar-dojo-1
+  ['transfer','channel-6'], # noble-1
+  ['transfer','channel-9'], # neutron-1
+
+]
+
+
+[[chains]]
+id = 'stride-1'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+  [ 'transfer', 'channel-197' ], # dymension_1100-1
+
+]
+
+
+[[chains]]
+id = 'cosmoshub-4'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+  ['transfer','channel-794'], # dymension_1100-1
+
+]
+
+
+[[chains]]
+id = 'osmosis-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+  ['transfer','channel-19774'], # dymension_1100-1
+
+]
+
+
+[[chains]]
+id = 'kava_2222-10'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+  
+  ['transfer','channel-144'], # dymension_1100-1
+
+]
+
+
+[[chains]]
+id = 'celestia'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  ['transfer','channel-138'], # dymension_1100-1
+
+]
+
+
+[[chains]]
+id = 'axelar-dojo-1'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  [ 'transfer', 'channel-138' ], # dymension_1100-1
+
+]
+
+
+[[chains]]
+id = 'noble-1'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  [ 'transfer', 'channel-62' ], # dymension_1100-1
+
+]
+
+
+[[chains]]
+id = 'neutron-1'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  [ 'transfer', 'channel-675' ], # dymension_1100-1
+
+]
