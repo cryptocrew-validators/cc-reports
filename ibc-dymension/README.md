@@ -4,15 +4,15 @@
 
 | Source Chain         | Source Channel  | Destination Chain | Destination Channel | CC Relayer |
 |----------------------|-----------------|-------------------|---------------------|------------|
-| `dymension_1100-1`   | `channel-0`     | `stride-1`        | `channel-197`       | - [x]      |
-| `dymension_1100-1`   | `channel-1`     | `cosmoshub-4`     | `channel-794`       | - [x]      |
-| `dymension_1100-1`   | `channel-2`     | `osmosis-1`       | `channel-19774`     | - [x]      |
-| `dymension_1100-1`   | `channel-3`     | `kava_2222-10`    | `channel-144`       | - [x]      |
-| `dymension_1100-1`   | `channel-4`     | `celestia`        | `channel-27`        | - [x]      |
-| `dymension_1100-1`   | `channel-5`     | `axelar-dojo-1`   | `channel-138`       | - [x]      |
-| `dymension_1100-1`   | `channel-6`     | `noble-1`         | `channel-62`        | - [x]      |
-| `dymension_1100-1`   | `channel-9`     | `neutron-1`       | `channel-675`       | - [x]      |
-| `dymension_1100-1`   | `channel-10`    | `kaiyo-1`         | `channel-160`       | - [ ]      |
+| `dymension_1100-1`   | `channel-0`     | `stride-1`        | `channel-197`       |- [x]       |
+| `dymension_1100-1`   | `channel-1`     | `cosmoshub-4`     | `channel-794`       |- [x]       |
+| `dymension_1100-1`   | `channel-2`     | `osmosis-1`       | `channel-19774`     |- [x]       |
+| `dymension_1100-1`   | `channel-3`     | `kava_2222-10`    | `channel-144`       |- [x]       |
+| `dymension_1100-1`   | `channel-4`     | `celestia`        | `channel-27`        |- [x]       |
+| `dymension_1100-1`   | `channel-5`     | `axelar-dojo-1`   | `channel-138`       |- [x]       |
+| `dymension_1100-1`   | `channel-6`     | `noble-1`         | `channel-62`        |- [x]       |
+| `dymension_1100-1`   | `channel-9`     | `neutron-1`       | `channel-675`       |- [x]       |
+| `dymension_1100-1`   | `channel-10`    | `kaiyo-1`         | `channel-160`       |- [ ]       |
 
 
 ## Relayer Accounts
