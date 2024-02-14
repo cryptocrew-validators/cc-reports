@@ -1,0 +1,197 @@
+[[chains]]
+id = 'wormchain'
+clock_drift = '6s'
+max_block_time = '30s'
+memo_prefix = 'relayed by CryptoCrew - ccvalidators.com'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  ['wasm.wormhole1wkwy0xh89ksdgj9hr347dyd2dw7zesmtrue6kfzyml4vdtz6e5ws2y050r', 'channel-0'], # pacific-1
+
+  ['transfer', 'channel-3'], # osmosis-1
+
+  ['transfer', 'channel-5'], # evmos_9001-2
+
+  ['transfer', 'channel-9'], # kaiyo-1
+
+  ['transfer', 'channel-12'], # stargaze-1
+
+  ['transfer', 'channel-13'], # injective-1
+
+  ['transfer', 'channel-14'], # dymension_1100-1
+
+]
+
+
+[[chains]]
+id = 'osmosis-1'
+dynamic_gas_price = { enabled = true, multiplier = 1.1, max = 0.6 }
+clock_drift = '6s'
+max_block_time = '30s'
+memo_prefix = 'relayed by CryptoCrew - ccvalidators.com'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  ['transfer', 'channel-2186'], # wormchain
+
+]
+
+
+[[chains]]
+id = 'evmos_9001-2'
+clock_drift = '6s'
+max_block_time = '30s'
+trusting_period = '224h'
+memo_prefix = 'relayed by CryptoCrew - ccvalidators.com'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  [ 'transfer', 'channel-94' ], # wormchain
+
+]
+
+
+[[chains]]
+id = 'kaiyo-1'
+clock_drift = '6s'
+max_block_time = '30s'
+trusting_period = '224h'
+memo_prefix = 'relayed by CryptoCrew - ccvalidators.com'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+  [ 'transfer', 'channel-113' ], # wormchain
+
+]
+
+
+[[chains]]
+id = 'stargaze-1'
+clock_drift = '6s'
+max_block_time = '30s'
+trusting_period = '224h'
+memo_prefix = 'relayed by CryptoCrew - ccvalidators.com'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+  [ 'transfer', 'channel-278' ], # wormchain
+
+]
+
+
+[[chains]]
+id = 'injective-1'
+clock_drift = '6s'
+max_block_time = '30s'
+trusting_period = '336h'
+memo_prefix = 'relayed by CryptoCrew - ccvalidators.com'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  ['transfer','channel-183'] # wormchain
+
+]
+
+
+[[chains]]
+id = 'dymension_1100-1'
+compat_mode = '0.34'
+clock_drift = '6s'
+max_block_time = '30s'
+trusting_period = '336h'
+memo_prefix = 'relayed by CryptoCrew - ccvalidators.com'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+  ['transfer','channel-34'], # wormchain
+
+]
+
+
+[[chains]]
+id = 'pacific-1'
+compat_mode = '0.37'
+clock_drift = '6s'
+max_block_time = '30s'
+trusting_period = '336h'
+memo_prefix = 'relayed by CryptoCrew - ccvalidators.com'
+client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+    [ 'wasm.sei1gjrrme22cyha4ht2xapn3f08zzw6z3d4uxx6fyy9zd5dyr3yxgzqqncdqn', 'channel-4' ], # wormchain
+
+]
+
+
+#### GLOBAL ####
+
+[global]
+log_level = 'info'
+
+[mode.clients]
+enabled = true
+refresh = true
+misbehaviour = false
+
+[mode.connections]
+enabled = false
+
+[mode.channels]
+enabled = false
+
+[mode.packets]
+enabled = true
+clear_interval = 10
+clear_on_start = true
+tx_confirmation = true
+auto_register_counterparty_payee = false
+
+[rest]
+enabled = true
+host = '127.0.0.1'
+port = 3000
+
+[telemetry]
+enabled = true
+host = '127.0.0.1'
+port = 3001
