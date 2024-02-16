@@ -2,8 +2,8 @@
 
 ## Channel List
 
-| Source Chain       | Source Channel   | Source Port        | Destination Chain   | Destination Channel   | Destination Port    | CC Relayer  |
-|--------------------|------------------|--------------------|---------------------|-----------------------|---------------------|-------------|
+| Source Chain         | Source Channel   | Source Port        | Destination Chain     | Destination Channel   | Destination Port    | CC Relayer    |
+|----------------------|------------------|--------------------|-----------------------|-----------------------|---------------------|---------------|
 | `kava_2222-10`     | `channel-0`      | `transfer`         | `cosmoshub-4`       | `channel-277`         | `transfer`          |     ✅      |
 | `kava_2222-10`     | `channel-1`      | `transfer`         | `osmosis-1`         | `channel-143`         | `transfer`          |     ✅      |
 | `kava_2222-10`     | `channel-5`      | `transfer`         | `akashnet-2`        | `channel-37`          | `transfer`          |     ✅      |
