@@ -77,9 +77,17 @@ dydx1yghndrffay859ma2ue4pa2cltw640vtadqdfl2
 ```
 dym1yghndrffay859ma2ue4pa2cltw640vtaky0t6n
 ```
+- `injective-1`
+```
+inj1t6652af4jvlahqrklleg8rac3ufpmeajgeugnd
+```
 - `kaiyo-1`
 ```
 kujira1yghndrffay859ma2ue4pa2cltw640vta43p4jh
+```
+- `kava_2222-10`
+```
+kava1yghndrffay859ma2ue4pa2cltw640vtacvhsf6
 ```
 - `mars-1`
 ```
@@ -114,6 +122,10 @@ terra1yghndrffay859ma2ue4pa2cltw640vtazaedaa
 - `pirin-1`
 ```
 nolus1yghndrffay859ma2ue4pa2cltw640vtajfnjac
+```
+- `secret-4`
+```
+secret1yghndrffay859ma2ue4pa2cltw640vtaxuhyzp
 ```
 - `stargaze-1`
 ```
