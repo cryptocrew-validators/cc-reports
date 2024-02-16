@@ -4,40 +4,40 @@
 
 | Source Chain       | Source Channel   | Source Port        | Destination Chain   | Destination Channel   | Destination Port    | CC Relayer  |
 |--------------------|------------------|--------------------|---------------------|-----------------------|---------------------|-------------|
-| `neutron-1       ` | ` channel-0    ` | ` consumer       ` | ` cosmoshub-4     ` | ` channel-568       ` | ` provider        ` |     ✅      |
-| `neutron-1       ` | ` channel-1    ` | ` transfer       ` | ` cosmoshub-4     ` | ` channel-569       ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | `*             ` | `icacontroller*  ` | ` cosmoshub-4     ` | `*                  ` | `*                ` |     ✅      |
-| `neutron-1       ` | ` channel-2    ` | ` transfer       ` | ` axelar-dojo-1   ` | ` channel-78        ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-3    ` | ` transfer       ` | ` kaiyo-1         ` | ` channel-75        ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | `*             ` | `wasm*           ` | ` kaiyo-1         ` | `*                  ` | `*                ` |     ✅      |
-| `neutron-1       ` | ` channel-25   ` | ` transfer       ` | ` phoenix-1       ` | ` channel-229       ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | `*             ` | `wasm*           ` | ` phoenix-1       ` | `*                  ` | `*                ` |     ✅      |
-| `neutron-1       ` | `*             ` | `icacontroller*  ` | ` stride-1        ` | `*                  ` | `*                ` |     ✅      |
-| `neutron-1       ` | ` channel-8    ` | ` transfer       ` | ` stride-1        ` | ` channel-123       ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-10   ` | ` transfer       ` | ` osmosis-1       ` | ` channel-874       ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | `*             ` | `icacontroller*  ` | ` osmosis-1       ` | `*                  ` | `*                ` |     ✅      |
-| `neutron-1       ` | `*             ` | `wasm*           ` | ` osmosis-1       ` | `*                  ` | `*                ` |     ✅      |
-| `neutron-1       ` | ` channel-16   ` | ` transfer       ` | ` mars-1          ` | ` channel-37        ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-17   ` | ` transfer       ` | ` centauri-1      ` | ` channel-18        ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-18   ` | ` transfer       ` | ` stargaze-1      ` | ` channel-191       ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | `*             ` | `wasm*           ` | ` stargaze-1      ` | `*                  ` | `*                ` |     ✅      |
-| `neutron-1       ` | ` channel-30   ` | ` transfer       ` | ` noble-1         ` | ` channel-18        ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-35   ` | ` transfer       ` | ` celestia        ` | ` channel-8         ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-36   ` | ` transfer       ` | ` kava_2222-10    ` | ` channel-136       ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-41   ` | ` transfer       ` | ` archway-1       ` | ` channel-61        ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | `*             ` | `wasm*           ` | ` archway-1       ` | `*                  ` | `*                ` |     ✅      |
-| `neutron-1       ` | ` channel-42   ` | ` transfer       ` | ` nomic-stakenet-3` | ` channel-2         ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | `*             ` | `icahost         ` | ` pirin-1         ` | `*                  ` | `*                ` |     ✅      |
-| `neutron-1       ` | ` channel-44   ` | ` transfer       ` | ` pirin-1         ` | ` channel-3839      ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-48   ` | ` transfer       ` | ` dydx-mainnet-1  ` | ` channel-11        ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-49   ` | ` transfer       ` | ` core-1          ` | ` channel-136       ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-51   ` | ` transfer       ` | ` chihuahua-1     ` | ` channel-76        ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-56   ` | ` transfer       ` | ` secret-4        ` | ` channel-102       ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | `*             ` | `icacontroller*  ` | ` injective-1     ` | `*                  ` | `*                ` |     ✅      |
-| `neutron-1       ` | ` channel-60   ` | ` transfer       ` | ` injective-1     ` | ` channel-177       ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-73   ` | ` transfer       ` | ` comdex-1        ` | ` channel-89        ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-675  ` | ` transfer       ` | ` dymension_1100-1` | ` channel-9         ` | ` transfer        ` |     ✅      |
-| `neutron-1       ` | ` channel-722  ` | ` transfer       ` | ` nois-1          ` | ` channel-47        ` | ` transfer        ` |     ✅      |
+| `neutron-1`        | `channel-0`      | `consumer`         | `cosmoshub-4`       | `channel-568`         | `provider`          |     ✅      |
+| `neutron-1`        | `channel-1`      | `transfer`         | `cosmoshub-4`       | `channel-569`         | `transfer`          |     ✅      |
+| `neutron-1`        | `*`              | `icacontroller*`   | `cosmoshub-4`       | `*`                   | `*`                 |     ✅      |
+| `neutron-1`        | `channel-2`      | `transfer`         | `axelar-dojo-1`     | `channel-78`          | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-3`      | `transfer`         | `kaiyo-1`           | `channel-75`          | `transfer`          |     ✅      |
+| `neutron-1`        | `*`              | `wasm*`            | `kaiyo-1`           | `*`                   | `*`                 |     ✅      |
+| `neutron-1`        | `channel-25`     | `transfer`         | `phoenix-1`         | `channel-229`         | `transfer`          |     ✅      |
+| `neutron-1`        | `*`              | `wasm*`            | `phoenix-1`         | `*`                   | `*`                 |     ✅      |
+| `neutron-1`        | `*`              | `icacontroller*`   | `stride-1`          | `*`                   | `*`                 |     ✅      |
+| `neutron-1`        | `channel-8`      | `transfer`         | `stride-1`          | `channel-123`         | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-10`     | `transfer`         | `osmosis-1`         | `channel-874`         | `transfer`          |     ✅      |
+| `neutron-1`        | `*`              | `icacontroller*`   | `osmosis-1`         | `*`                   | `*`                 |     ✅      |
+| `neutron-1`        | `*`              | `wasm*`            | `osmosis-1`         | `*`                   | `*`                 |     ✅      |
+| `neutron-1`        | `channel-16`     | `transfer`         | `mars-1`            | `channel-37`          | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-17`     | `transfer`         | `centauri-1`        | `channel-18`          | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-18`     | `transfer`         | `stargaze-1`        | `channel-191`         | `transfer`          |     ✅      |
+| `neutron-1`        | `*`              | `wasm*`            | `stargaze-1`        | `*`                   | `*`                 |     ✅      |
+| `neutron-1`        | `channel-30`     | `transfer`         | `noble-1`           | `channel-18`          | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-35`     | `transfer`         | `celestia`          | `channel-8`           | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-36`     | `transfer`         | `kava_2222-10`      | `channel-136`         | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-41`     | `transfer`         | `archway-1`         | `channel-61`          | `transfer`          |     ✅      |
+| `neutron-1`        | `*`              | `wasm*`            | `archway-1`         | `*`                   | `*`                 |     ✅      |
+| `neutron-1`        | `channel-42`     | `transfer`         | `nomic-stakenet-3`  | `channel-2`           | `transfer`          |     ✅      |
+| `neutron-1`        | `*`              | `icahost`          | `pirin-1`           | `*`                   | `*`                 |     ✅      |
+| `neutron-1`        | `channel-44`     | `transfer`         | `pirin-1`           | `channel-3839`        | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-48`     | `transfer`         | `dydx-mainnet-1`    | `channel-11`          | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-49`     | `transfer`         | `core-1`            | `channel-136`         | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-51`     | `transfer`         | `chihuahua-1`       | `channel-76`          | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-56`     | `transfer`         | `secret-4`          | `channel-102`         | `transfer`          |     ✅      |
+| `neutron-1`        | `*`              | `icacontroller*`   | `injective-1`       | `*`                   | `*`                 |     ✅      |
+| `neutron-1`        | `channel-60`     | `transfer`         | `injective-1`       | `channel-177`         | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-73`     | `transfer`         | `comdex-1`          | `channel-89`          | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-675`    | `transfer`         | `dymension_1100-1`  | `channel-9`           | `transfer`          |     ✅      |
+| `neutron-1`        | `channel-722`    | `transfer`         | `nois-1`            | `channel-47`          | `transfer`          |     ✅      |
 
 ## Relayer Accounts
 - `archway-1`
