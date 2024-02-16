@@ -33,63 +33,63 @@ Total active counterparty chains: 14
 ## Relayer Accounts
 - `kava_2222-10`
 ```
-kava - kava18hx3fcqrvynx9vvpvyv5qym82xz4suw5vn80f8
+kava18hx3fcqrvynx9vvpvyv5qym82xz4suw5vn80f8
 ```
 - `osmosis-1`
 ```
-kava - osmo18hx3fcqrvynx9vvpvyv5qym82xz4suw5caqzfj
+osmo18hx3fcqrvynx9vvpvyv5qym82xz4suw5caqzfj
 ```
 - `akashnet-2`
 ```
-kava - akash18hx3fcqrvynx9vvpvyv5qym82xz4suw5aa74x6
+akash18hx3fcqrvynx9vvpvyv5qym82xz4suw5aa74x6
 ```
 - `agoric-3`
 ```
-kava - agoric18hx3fcqrvynx9vvpvyv5qym82xz4suw5zm3d0k
+agoric18hx3fcqrvynx9vvpvyv5qym82xz4suw5zm3d0k
 ```
 - `cosmoshub-4`
 ```
-kava - cosmos18hx3fcqrvynx9vvpvyv5qym82xz4suw5sxnjlq
+cosmos18hx3fcqrvynx9vvpvyv5qym82xz4suw5sxnjlq
 ```
 - `evmos_9001-2`
 ```
-kava - evmos1qz5humuak45aj67hmy4at5hykfsvc8453dxyl7
+evmos1qz5humuak45aj67hmy4at5hykfsvc8453dxyl7
 ```
 - `kaiyo-1`
 ```
-kava - kujira18hx3fcqrvynx9vvpvyv5qym82xz4suw5pw32j2
+kujira18hx3fcqrvynx9vvpvyv5qym82xz4suw5pw32j2
 ```
 - `phoenix-1`
 ```
-kava - terra18hx3fcqrvynx9vvpvyv5qym82xz4suw5kzfjaq
+terra18hx3fcqrvynx9vvpvyv5qym82xz4suw5kzfjaq
 ```
 - `canto_7700-1`
 ```
-kava - canto1qz5humuak45aj67hmy4at5hykfsvc845p6k637
+canto1qz5humuak45aj67hmy4at5hykfsvc845p6k637
 ```
 - `migaloo-1`
 ```
-kava - migaloo18hx3fcqrvynx9vvpvyv5qym82xz4suw5aj6g2w
+migaloo18hx3fcqrvynx9vvpvyv5qym82xz4suw5aj6g2w
 ```
 - `injective-1`
 ```
-kava - inj10hvldghaqvsedplt3utxffs34ylss5w8chwgfp
+inj10hvldghaqvsedplt3utxffs34ylss5w8chwgfp
 ```
 - `pacific-1`
 ```
-kava - sei1yvejj22t78s2vfk7slty2d7fs5lkc8rn78qyra
+sei1yvejj22t78s2vfk7slty2d7fs5lkc8rn78qyra
 ```
 - `dydx-mainnet-1`
 ```
-kava - dydx18hx3fcqrvynx9vvpvyv5qym82xz4suw5elaklh
+dydx18hx3fcqrvynx9vvpvyv5qym82xz4suw5elaklh
 ```
 - `noble-1`
 ```
-kava - noble18hx3fcqrvynx9vvpvyv5qym82xz4suw5c9x68w
+noble18hx3fcqrvynx9vvpvyv5qym82xz4suw5c9x68w
 ```
 - `celestia`
 ```
-kava - celestia18hx3fcqrvynx9vvpvyv5qym82xz4suw5pvzz9d
+celestia18hx3fcqrvynx9vvpvyv5qym82xz4suw5pvzz9d
 ```
 
 ## Chain Registry PRs
