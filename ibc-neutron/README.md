@@ -62,7 +62,7 @@ chihuahua1yghndrffay859ma2ue4pa2cltw640vta8vwr7l
 ```
 - `core-1`
 ```
-neutron - persistence1yghndrffay859ma2ue4pa2cltw640vta24973e
+persistence1yghndrffay859ma2ue4pa2cltw640vta24973e
 ```
 - `cosmoshub-4`
 ```
