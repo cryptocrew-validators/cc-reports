@@ -1,0 +1,614 @@
+[[chains]]
+id = 'osmosis-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['icahost', 'channel-18639'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-18649'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-18793'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-18865'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-19245'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-19251'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-19261'], # Matched icacontroller wildcard from neutron-1
+  ['transfer', 'channel-871'], # Matched direct from neutron-1
+  ['transfer', 'channel-872'], # Matched direct from neutron-1
+  ['transfer', 'channel-873'], # Matched direct from neutron-1
+  ['transfer', 'channel-874'], # Matched direct from neutron-1
+  ['wasm.osmo10j4qku3lzsqayyq6uhta4pzkv4fc97w3em9mjaxtvmv84y0fcats96lv89', 'channel-13103'], # Matched wasm wildcard from neutron-1
+  ['wasm.osmo10j4qku3lzsqayyq6uhta4pzkv4fc97w3em9mjaxtvmv84y0fcats96lv89', 'channel-13106'], # Matched wasm wildcard from neutron-1
+  ['wasm.osmo1vw02frqejfw2v2w7dy6ws35jp9743dwkxy0laalwsuvzzvkszz7s8d93yw', 'channel-12058'], # Matched wasm wildcard from neutron-1
+]
+
+[[chains]]
+id = 'cosmoshub-4'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['icahost', 'channel-662'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-697'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-736'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-751'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-770'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-772'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-777'], # Matched icacontroller wildcard from neutron-1
+  ['transfer', 'channel-569'], # Matched direct from neutron-1
+  ['transfer', 'channel-608'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'neutron-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['icacontroller*', '*'], # icacontroller wildcard
+  ['icahost*', '*'], # icahost wildcard
+  ['transfer', 'channel-1'], # neutron-1 to cosmoshub-4
+  ['transfer', 'channel-10'], # neutron-1 to osmosis-1
+  ['transfer', 'channel-13'], # neutron-1 to cosmoshub-4
+  ['transfer', 'channel-16'], # neutron-1 to mars-1
+  ['transfer', 'channel-17'], # neutron-1 to centauri-1
+  ['transfer', 'channel-18'], # neutron-1 to stargaze-1
+  ['transfer', 'channel-2'], # neutron-1 to axelar-dojo-1
+  ['transfer', 'channel-25'], # neutron-1 to phoenix-1
+  ['transfer', 'channel-27'], # neutron-1 to osmosis-1
+  ['transfer', 'channel-28'], # neutron-1 to osmosis-1
+  ['transfer', 'channel-29'], # neutron-1 to osmosis-1
+  ['transfer', 'channel-3'], # neutron-1 to kaiyo-1
+  ['transfer', 'channel-30'], # neutron-1 to noble-1
+  ['transfer', 'channel-35'], # neutron-1 to celestia
+  ['transfer', 'channel-36'], # neutron-1 to kava_2222-10
+  ['transfer', 'channel-41'], # neutron-1 to archway-1
+  ['transfer', 'channel-42'], # neutron-1 to nomic-stakenet-3
+  ['transfer', 'channel-44'], # neutron-1 to pirin-1
+  ['transfer', 'channel-48'], # neutron-1 to dydx-mainnet-1
+  ['transfer', 'channel-49'], # neutron-1 to core-1
+  ['transfer', 'channel-5'], # neutron-1 to phoenix-1
+  ['transfer', 'channel-51'], # neutron-1 to chihuahua-1
+  ['transfer', 'channel-52'], # neutron-1 to chihuahua-1
+  ['transfer', 'channel-56'], # neutron-1 to secret-4
+  ['transfer', 'channel-57'], # neutron-1 to secret-4
+  ['transfer', 'channel-60'], # neutron-1 to injective-1
+  ['transfer', 'channel-675'], # neutron-1 to dymension_1100-1
+  ['transfer', 'channel-722'], # neutron-1 to nois-1
+  ['transfer', 'channel-73'], # neutron-1 to comdex-1
+  ['transfer', 'channel-8'], # neutron-1 to stride-1
+  ['wasm*', '*'], # wasm wildcard
+]
+
+[[chains]]
+id = 'axelar-dojo-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-78'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'phoenix-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-229'], # Matched direct from neutron-1
+  ['wasm.terra1669p39l9gg4ajjwyta5psf5g4aen05d392mzp9efpa06vnaa7j6s3czzd3', 'channel-323'], # Matched wasm wildcard from neutron-1
+  ['wasm.terra1fkuhmq52pj08qqffp0elrvmzel8zz857x0pjjuuaar54mgcpe35s9km660', 'channel-168'], # Matched wasm wildcard from neutron-1
+  ['wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce', 'channel-167'], # Matched direct from neutron-1
+  ['wasm.terra1vsk76g5xwv25ys6f8adwy85tszpv49daju5ugkgw6car9954feesc8qg97', 'channel-373'], # Matched wasm wildcard from neutron-1
+]
+
+[[chains]]
+id = 'stride-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['icahost', 'channel-155'], # Matched icacontroller wildcard from neutron-1
+  ['transfer', 'channel-123'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'stargaze-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-191'], # Matched direct from neutron-1
+  ['wasm.stars14azfhpfxhkshxehex5x7xuq3a9wjqryc2x0kwg4stp6a59zmnpqqzfjl3c', 'channel-267'], # Matched wasm wildcard from neutron-1
+  ['wasm.stars1f54x5q35vv39xv4dvjdxthj98xttulml2a86src2tf24mcpvq8wshc3px0', 'channel-253'], # Matched wasm wildcard from neutron-1
+]
+
+[[chains]]
+id = 'noble-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+    [ 'transfer', 'channel-18' ], # neutron-1
+]
+
+[[chains]]
+id = 'celestia'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer','channel-8'], # neutron-1
+]
+
+[[chains]]
+id = 'nomic-stakenet-3'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-2'], # Matched direct from neutron-1
+]
+
+[[chains]]
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-61'], # Matched direct from neutron-1
+  ['wasm.archway1qr94yuptq5h0nj5xctzft3q33262j2ajsquh42tpe0lptpev6rkswtfld5', 'channel-85'], # Matched wasm wildcard from neutron-1
+  ['wasm.archway1sqaustkd60n6m2s2t82ml373wsyl6gag547h5n4r0spr96kuat3qrfdrx2', 'channel-95'], # Matched wasm wildcard from neutron-1
+]
+
+[[chains]]
+id = 'dydx-mainnet-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-11'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'pirin-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['icacontroller-nolus103k2f0kfgwc00yg6l7gt7ju6rts5cpnd4d6ukrgvj7zmap5h4prsr0p295.0', 'channel-7207'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus105m89tx535a4ehy3fc556jx4vvu0eatecf009ds4pw52rxcw97yq79vkpv.0', 'channel-7223'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus109cfttv3a8jdpgm3p05h8ckjmmkdvetkyd5eu39zj0g5d06wwp5q27245g.0', 'channel-7644'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus10fuxtw6jgsxts3wlz9htl8caj6agl9zsfu4a02rlelw5gk8cc25qzddcf2.0', 'channel-7798'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus10g98354c02a4xns97hnp0wa368rvkw8xpqs32kndkhf6kq84rvws9wrnyu.0', 'channel-7222'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus10pdtq4stglu55gnhm49hssayj8vlaj67rnhf75j92hgr4lptqfkstctwuj.0', 'channel-7495'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus10ymzggd3deqlm0zkwa94kucmjafnlj9jz5jh4jrwz650mwn7prlszke04y.0', 'channel-7959'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus10z73n3hzrspwue474mk7rngv9yuvz6m55y9xk7tx35qewr30mxgsm8sw47.0', 'channel-7232'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus124rd7p3jl8aw2w60yc4ywgp5qsf2ztzefr8celestk2yttgjf98snrn9ul.0', 'channel-7398'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus12ap8jh49j42jdsh68z8wnlrpgtr9g6zvj32h8e709xuzjrusrnnq5mhawh.0', 'channel-7293'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus12gr0etwhr0rraxfdm3tppyr7pacrns2fcgum04464p0cjsg9fdtqa65n6c.0', 'channel-7306'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus12kmlanxw2jlpe943zhprg00d03m3r7rlrtq0nuygjvyfce2p599s4pyh84.0', 'channel-7544'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus12l9d30lj65ge2pmrzezuku26k62l0lt5gpmpusttumm2y2u66tqq25elyy.0', 'channel-7523'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus12tsj75ww4k7agrde7xvq0yrtq8a59uu3cyt956yxjlemdhsqa9dq26gdny.0', 'channel-7577'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus12vpaw55ulqldc4dg5vdm36gwwmy9g8e8hyrgsvq423e7tcnmg68qzsdulg.0', 'channel-6984'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus12x2q9nrx6gete7rpfg9tm3ruu9585jm7d6pe5zp922ek3f82qtps70q0hl.0', 'channel-7760'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus132p55xqxqhxdujejuyx4tqqwuxwdntgaj0epa2yxa0x3pd7lejns02369q.0', 'channel-7403'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus13dfkkgh90q3r4al2ulturrv3rlkt39ee0za39jyeqz0a34autxusjmmlkt.0', 'channel-7988'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus13dkkq83urfztv2fd458quvtprw9r34krf4vl8suyecrw3lv66jpqpreskj.0', 'channel-7692'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus13dsmvr5pdftz2gn3w4dnluaj3yn08uwuxw3kzu0y302tz5nyxkfssg8gvg.0', 'channel-8138'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus13hdjxjh5ssd4supk77pfrvzjgfh922h456quv78dq63x88j7u92skr73kl.0', 'channel-7619'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus13rk3wdtpvjlf08zpc73ufzljuekjh876fdhgggsrsyehwspkfgwskyna9a.0', 'channel-7231'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus13vc3ge98qfl5vh5pcd8qn3z0s5pcznfzakq9u8c2acx36mf8dthsfvqze8.0', 'channel-7233'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus13whdgamptl2r8ua8y85wwjlwavzvuxnja3aqm8pauywu4qex55vq0n3mx3.0', 'channel-7330'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus14cfaxesx5eefnkhmcmcj74z9wxz9nz4eretpaxzdsa9keyv2w9sq3h6s4g.0', 'channel-8001'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus14gadqs6xylqmlt7mz55g9u6axexwwxnsmzg9dp4kmkvcpu2737wq0y4xnn.0', 'channel-7484'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus14pe3t3krk30s0a6ram0v9qrjc4vxal07m4av9kpq7tyzp3ez3jlsursj0l.0', 'channel-8105'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus14vpdfa8f0pd0n2qejt50pf2rl4z96wnk3876ekrkrn9fj5f3ufwqndrycm.0', 'channel-7217'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus14vsrumzj7llpmgk2g7upedxm6uuqcllxef8gy2n823wdanrkqlasjsjwkt.0', 'channel-7887'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus14ywzpgchlze9gh2mevfz2d7hf6ls7za0ye9aggp4m2g8t39dvvaqcfqs9f.0', 'channel-7331'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus14zcmgxf7gamahpvzlalj84w42pk8jgxnzye28fn0vmh3g9w0qv9qcnry5n.0', 'channel-7286'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus14ze6kztzhatd2374czj52muc5kkd7dd0gw06edhw730sjsc3fz2ss2wl3e.0', 'channel-7434'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus14zhws0hcgnsasgk4myce2w9kuplzuzszhavd765q53dwrn33l8ks5vkf4m.0', 'channel-7808'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus15767zuuj5u95hu0kq4655zmfcemwxvzwzy24e8suese35fj5mk7qnnjef2.0', 'channel-8020'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus158ugw86jg5gz70zrlh547ps53kg9g74k4j995s8pfgfayf3sckeq7aalky.0', 'channel-7245'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus158yn7pn4s6ck88t3ruwfa9g3mttt03tfhg8cejpcf3kt48dd09sq8q75x4.0', 'channel-8004'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus15kj6402lhde8wgf9amap3hv9tyzk9q0w2gkghlcahn9mvajvc0qq2wnjca.0', 'channel-7001'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus15rrzx7k0g4thjneltg76nhn9qshe95d8mxj3335kjyyl7l39cjwqy4np5j.0', 'channel-7556'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus15tgp53q3jvps3a3u78zayadch7m858f0gunh0g5ufmkukt2qwxysfj0lcu.0', 'channel-7243'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus15vp7c5rzgpcza6dpn0aqta2s9eussfr0edgyzu9ukuqyvlpnxgcskxp2zq.0', 'channel-7241'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus15yr0gs674qh2dqxyular0xslqr4g05f9t59dxy39juyx9c3xdecq9fexa3.0', 'channel-8111'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus15zv66j4jrpp7aehfgq6jf56c6gctx3hyq74wmu9cyrqdac2dpn6s8x0fym.0', 'channel-7291'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus166jzl9kxtx59eulxh5ag3wrhxsg20f7qhm6wye6vh3ndf8968q3sks2g2x.0', 'channel-7274'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus166yd7lvjlvaad30cy7dydvgjpjqf4c526k8cn2gld28fwn8f7vaqvpe9r2.0', 'channel-7229'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus16dgw35p3gnr2hfgyqzeqpyqcvarp4wa6u5l5g5n74merfqqt3j9sa8shrh.0', 'channel-8080'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus16s2854t6es9ytj03fxlwhumk7l9da0yc22xn5pynr4pnhwptdrqq88k40p.0', 'channel-8103'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus16zsp2w3svh02qn4cmjte2equdkrwv7h9mmtllrhtlppan4x4u7yqc5ms7n.0', 'channel-7266'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus17e4w79ssdqu6r5q3thrktnezawt2j8chr0ynu76gzr6spwze2rjqc7v2hg.0', 'channel-7076'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus17k4eudq0uh7rm8rd5daanwajsqyk6twtq84jlzd6f7v24gmtxk5s4vz8kx.0', 'channel-7301'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus17t7wsual847pp370p72ddmpmhf6tv3faj6hchs9u7yatw56049nqk3lham.0', 'channel-7344'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus17wju0p2xu2fr25avh6ssyvaqv6cfpr9m35395kterxh3uqpg59fspapcg0.0', 'channel-7352'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus17yhn5hevrrqds5naxxv526scxe3hr4ckg4hxywyj5528quzrjjpsx88469.0', 'channel-7242'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus185pwk0hetdspg0j599qa6y6s67kpu55xrw0jw7eut59c0ekep0xs048fcq.0', 'channel-7519'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18h2arv8r0mrm8yxq4rfuqpxy2xjn7ft66mxneu6ml93cqkkxnz3qh5x5ns.0', 'channel-8088'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18hzqxr2lx78e5ytqmfgk97et3z6tkmzjg7y5nc66yexdrhw80wasaujvq8.0', 'channel-7963'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18jg2sgw226swlgw66qe2t7gf08sn5p9hj8zkx442gfgcn5ccekpqk22qga.0', 'channel-8039'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18kaacnrktajy5827dl0vfjgnvwpwlcwu8fnuqgqrads4e0rhzngs0znxqy.0', 'channel-7326'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18p6g0l5kje7lekq403dykgkhq8rkczcuq547s6mwa44kmj4tcgqsu5hklr.0', 'channel-7906'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18s9spdy203aea0nanz9w5f23dh7y0z2eums2ndjpncrswlqqal5s44sww8.0', 'channel-7295'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18tldzyqf3fnwj2f7ceyrfvq7msnk9r3at8lr4704gehthhjr7gwqgh5ayp.0', 'channel-7342'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18tsneht3kgg3rt7vfur74sgfx8sn3xunrygzm80h0yqp9czzcf5q84wxq0.0', 'channel-6979'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18ttgnwcetw3ww0clrudxtfhqg3j2ldrt65j5hwysdlhfsjsc9g3se3mlfq.0', 'channel-7816'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18vc2q87l3x7ldz44dhtxv0a8ep5xcqm222hyl84gchvphw0f7yaqfmmetr.0', 'channel-7425'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18yrjp6mc27mmnc6u57me2ty29jd33t83tdsqptf833rhsa6vp46st2nkna.0', 'channel-7361'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus18zqspm5s46va90ysa6c286zv52kuvxpsfe73tnmk9dqdn2hwx9lsgh7nms.0', 'channel-7592'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus194u4l9jp2p2ulsn8rn605hvtj5zjgt46grackzrpn97a6tvvxudsel0htm.0', 'channel-7853'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus195gphmucglp9nh744lfevktgqfwsswgglznyhuxtpmvjdcsldrls3dcqvl.0', 'channel-7879'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus197j8qddcatyekl3drr8gf099jl4n5y7yjqh5k2fks2fx4n89suwstclszx.0', 'channel-7518'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus19dqng0g5lv0vwddm56cwzjgy4tsdqfjpkdqqc65q7737entmv30sz8aaa4.0', 'channel-7922'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus19f064mkmxuwkrm4vnprs23rn8dvfyf0t3u266ffnm4lncgla7uzqzl2hq3.0', 'channel-7090'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus19gwfc5ysp2edwr67f34lrn6rhzt257u842gnf5q8pz0u8kwcqa4sshwjqp.0', 'channel-7496'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus19kwdgv5gyx40juf3vcn6wmz7uxmxnekcqslaxx9wnpp44te9tpeqjm049t.0', 'channel-7444'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus19mckqrh222n3xyhxd35a3fqnlwyv8jheh980eaq0rhx4axcps7fq84t720.0', 'channel-7205'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus19myt9eslr44eah5wy8lehs0q49egahtaqxgsfvcw8k9kl50gqd5q97xzcg.0', 'channel-7260'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus19ne6anjx73va6mrl6mn8xafj8x5u965s8m8s5shtjfvaxx87gv6qppdsr3.0', 'channel-8094'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus19vgxkfct8g6q6wrvhqkk2r79pweqx9adly8kl7nsly3quaf78jnqt0rf0r.0', 'channel-7648'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus19wz68p5gylpns64q8mkyqkf6appq3ug4wu6gkf95gw87d56ukpqsq47s0v.0', 'channel-7996'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1a6ftk74359wnypjfmzpyffs3u0xtw7sn8g3kec9tj597d5k4cjjsfu7tvj.0', 'channel-7418'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1a90wwtmkx255th78ua240p76zhqyfekj8686mkw6rd5yp2mlewts3nf3tn.0', 'channel-7855'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ae34nrmzp3ruqxjvqmyefd32rceh3xs206g57trs5q5yq4yka7vq6yprd9.0', 'channel-7588'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1aemqq7tvyfm7edqr4c7vpv9dj2knpyygthl7ktl5np25dnff6uqst7dfhd.0', 'channel-7493'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ajhw7y8grff27jkvuxhdsly4jj6205e70vr3y8xkmxp7ezd9arqss8636n.0', 'channel-7347'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1am9fp7vn9v0textak5dmlpq0hp8ugq5tmzcekqa8290zxvrru6nq6fygzm.0', 'channel-7322'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ap5w78uc8yh67afwrrjwujnqzfksrjhpuwnw0vptwde37urx3mgqjgfj38.0', 'channel-7645'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ar3g9tampzdvsc7sz36aavlfky8p5hrgrrd692mtjddsgq3xm3ys7gkmv3.0', 'channel-7212'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ayftuymgvmvvn7uq9hezm98fhh3v2whumz0mlellsmj5pzrqaveswp0gfu.0', 'channel-7891'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1c55s8ygwe8ecudcrv44a5dd6hw2vl0r9psfe78rj3knj0yn0zddssruc80.0', 'channel-7244'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1c72rk6pesp69epp3grx3rzdf2jpw49xuwdd08ewup7mz8utck3gsewrdy5.0', 'channel-7382'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ccsqy07d8mvlwm2pjyvdhulglz3y5qvt2vely5fss46tyj2lgfmsd7kf26.0', 'channel-7914'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1cg7wu033va0p7yqhvgmmrv5qd9etxvwq93vulc99gtxjdfnwrh5s3lmk5s.0', 'channel-7800'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1cj58v8t7e8wvkrx5jr3xn8kp9vwmwgyz87fyh32h5q8waxjym5tqe85hmz.0', 'channel-6980'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1cphqm8yqyywuer5x4xxa6xv2sf0xf32ulms3hsq6dwm8mc0tcpxswveeal.0', 'channel-7258'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1csj7yt4zfdq2dfe2t5u46mnmar34ggqfp8zfqf34mqmm6rupdjxql0echj.0', 'channel-7862'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1cw2dzp8c0w85aegjk9ffag5j26g3lpfgal383q4krm2tgdqzamuqmk8gw6.0', 'channel-7220'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1d3rfpqym3uqgjwpgrmahll5sqnulnly8zs6qn5xhds2fdgmuahfqa94x4p.0', 'channel-7073'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1d8xq33f3jwey0dezse2px4xjhnewrdckufyrq5la6tk7afr9s2mqzkzrer.0', 'channel-7210'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1de2z0sr0267jsdrg9g0p2c8d9j8647lr9mlq6tc7a6f3rsmvkp7sczhh4t.0', 'channel-7494'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1dglxkn89gtmazwl7wrgs8vxktryry4fl56nmwxrw55jc4waej3fq4u58lk.0', 'channel-8034'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1dgwug6ys0703uftaqql0yvqvkeres8tvn34zz8zpdp84u5p2936q8zejda.0', 'channel-7779'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1dlh9chskqcujymsqn0cumvf67g6r5pp7jatxhjhm85p7fyt0ww9se7v0pp.0', 'channel-8003'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1dmk3mf0upqnug0x43nnsfga0kl8e7clwaqemqkhrytfcwe0xkleque64md.0', 'channel-7203'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1dnvpv67j0fhtjmm2da8jk08mj0nvwqfv4w5l2qz5d38mh9tvggnstzepup.0', 'channel-7844'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1dtuzr4r62q7nnna5yt4vpvcdntnygu2kq2l8v0frhlsc9uqmucmqc8gsvd.0', 'channel-7414'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1dvggpkkpy90htn52udxr3advjm70trpacj8shjn9hsupmzg5w8hqf0nxl2.0', 'channel-7861'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1dxeq5xh4t4fnvzdgwzq4yey596uamkmqku2jvh9gu46s5m3kawqshcz253.0', 'channel-7446'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1e0cncq3x2g472uy69hqszzc200kgha5nphhulxgh5p5y7s9r9xls0qcudx.0', 'channel-7474'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1e5djgjar7hvs6p4vram8pq4839qdtrur0y4qcwfukt5vd9af260qm37emk.0', 'channel-7509'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1e98rpkf86ylae6rtsszfjh4adkg88d3awedkpv0ymefgg4tfhd7s47slsv.0', 'channel-7253'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ea2fvmfxe0d57wkcnqqlw8grwlpk82djt95zkq8mu343va80tkysztkhhr.0', 'channel-7602'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ed9fdv7vz0mwrmu259hcprczsj7e9yxpp3cv6zpzaufhm4srtgkq08f7ds.0', 'channel-7756'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1eehcm9whgze249g88q9nh4lu5kzgmpz5w6cmw2p7p5kkafaw3m2qj777wz.0', 'channel-7499'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ehua5vw8f8ufz3ga9gk59uyf9d4agzced49ndhf0kppf82harvjsva2ec3.0', 'channel-7435'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1eqw4ypeygzw5z3935ltrld7jrdkq94pkv7e2gnl9snweksc8230s5md8ym.0', 'channel-8067'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1eraksjsgkczq0dhdyhshdd2crysx3wu7fj4z3r6hqquhlc9dxfrqrg646l.0', 'channel-7852'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1eupge0rnfwhm20zcm6rx9vapr2hcx885mmgw9g6k4jq47aknzqtsrnwxh5.0', 'channel-7208'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ewzemc82zew0x02853hpr2rt2swnvtcjkrpveh0cyvm6umgxjnmq0jp3dk.0', 'channel-7261'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ezged3fmfqpvtqp23wgpxytn7xa5cekxzgrxhjs8mcarldx2ef2qv7acl0.0', 'channel-8065'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1f0qv9dn40mc6h4urmph49kw3cmjh4s9am2j5yeu98wxjplj0vvqquuv0ls.0', 'channel-6998'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1f67uxf6um565w0lssj5hvnnxh3twszsyftr3knjt2crpz5979uvqkxl0vl.0', 'channel-7883'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1f7fet37v7cg3usf28furl0v28h99dpy63jvdc6w8qaacxjs8gsrqn9p6gf.0', 'channel-7338'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1f7wldfhpvaew7sztw8l62w42xqk0yyy0t89cf4r7qlnaasw0pzus9xp8hg.0', 'channel-7586'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1f8lz504k0nvvh24st97r2ljnk3n98a4d8zatq33x0try6gjj3ljq5r8tcy.0', 'channel-7298'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1favz7wvgp4cgp2k495uxz5fwymnf0esg6e3hwmskwhuqu4yapwgqgdtuj7.0', 'channel-7559'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1fczcxqw39tx36a3wlyu3r66c5hnvjuuqdg0evc7wwdukk640ujlqafgfd9.0', 'channel-7433'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1fe6yv6n2ad6ln78m6xlan23fgqvnnajmhn3lq0p93ycl62lukujsf33vrt.0', 'channel-7201'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1fkjgx5w3mtx4g3py55kmgshpay7dh68vrnqcet3fkdz7lltkjq4qg3cljm.0', 'channel-7617'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ft9eu6jd4wdnlq466zwhwth020vkr5hyh8nptakg7vhd8fh0vfxq4jz47u.0', 'channel-7310'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1fyn296j2td8fpckgqfsukuf7x5quvcr7096rerx45yf9an6d3veq7ju5jj.0', 'channel-7218'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1fzlcce2k5l0yf7myancz03wlh8sa9fkkqd0h9gffuv5z7lnxqr3q63k8zm.0', 'channel-7817'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1g3s85nh8ee47cmhu52j45wqddtmfrqwvsnushktwqywlvs324xsqyd4szn.0', 'channel-8089'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1g8ryqn60uqe0lpf49tdh93zh4nenmjkhcng4tt6lptaepug46frq8m9l2z.0', 'channel-7409'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1gkrpgza2juxv27cdyr0z4j8j2mxnwvtvp2hrufehtdtnn83025ps2kx3g3.0', 'channel-7238'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1glt0pxxe6cpcg9cuvavzyh2emsyce3j33ku33vnzwn22wgyuhjzq0fx744.0', 'channel-7365'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1gpqs2k0veaug2zjet4na05355xphm409xfpe74qet0udyvsl6slsv8tq69.0', 'channel-7995'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1gq3qlvpr2zezpfdr5zm24atf40d2dj23nmcawuxsw7nkz8kq8qhqq495n4.0', 'channel-7224'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1gru5qjs8v5jz294gdmv4l3c949vl5kjum5m79kcaydfr3je3k75q8edq4r.0', 'channel-7332'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1gsf3vmxre2yvmws4de7pxlnfccullm7h3t47jyrvz3jvfyrj45qs2qcsqc.0', 'channel-7979'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1gy6pnxt5v03dmdd0p0qyh4dcephwuzlr8ncnqkefmarwagnl2ljscqdxs9.0', 'channel-7440'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hcw7vwyh69ccgh84qlyyzc32dtly6tsakzryk7f0ya47qk2dtvss5navlc.0', 'channel-7992'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hd5k9n746v9468fvwnxpm47ztxdauazmfxkc36659gnmhsltwqzsx3t7c7.0', 'channel-7228'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hdl8hd6zvwelpl0ahwj0z84s9rghuwcv4wmgk9j7ukng808jslesfvxfx0.0', 'channel-7215'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hfv72xsfgf5448nznr02lww7808w5efgplepykc54n7c0qaptvusxknyzj.0', 'channel-7691'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hfvlkszu2rt8gp2t7h60gzlxtyey47drkapmyz9ghm7x9tekw3qs4mchdy.0', 'channel-7773'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hhsa74sua0nhy6jdgzw058x2zh3smld3ugfx8fmjx69vsak6ll8sef3l43.0', 'channel-7933'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hk9gv7nwp2tr7ncqg3f632hl0sccjgjasmvqwq4rsmzjlfu7rqhsd3w036.0', 'channel-7634'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hkvdhyxnxz820h5vt8jq5el4nvfu5kk78s757znn7apk2muu5jgsgw2pjg.0', 'channel-7565'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hlxcfd9dgzm9cjdhmdzjvsu9jpp64m6gay3pedm8ulhu0nlz4rysf825d8.0', 'channel-7731'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hmetpv0p0lyc0l6j04255dgca7scrdfgpcfzgvh0d2fwr3z6zjkqxzvk44.0', 'channel-7394'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hmmkd0cljnyrfdr9qws479tckfw5edqvckd40nqaswe89r2z7wlsxsccdg.0', 'channel-8110'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1hsy7yjxh0twurxl7xtlnu9ylh6wald47x3knk6k5rjh8j5gceqgqd3l3xw.0', 'channel-8068'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1j20v3e8e64vkw33nvresm59qkqq3yu6le5yhdquh2ltpqnmspvlqfelugf.0', 'channel-7426'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1j2zy6hdc4af5jsaw3j2sj3drdh2aqqv3pnkpggglz0whwfcldnwqcekyd5.0', 'channel-7650'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1j985em35rjzycjnrwfyla0206fyh9g9z6lkpnhrmkxgrm0u59d6q0ngrvu.0', 'channel-7747'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1jfqq9l5fayl4lwzwsk24n56w65lu4lpm5h7l46kugkexn6zxuk0sxg0jyl.0', 'channel-7391'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1jh777aapkpyxsd7ynvfsllwlsr8243d7408z9zd7w8ymygm7xg2sp4j78n.0', 'channel-7640'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1jkkps45yh8gtvr4fhsr2lrdt42wzyr0a3xe9ehn5cq97vsvhj5yqj2sfep.0', 'channel-7579'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1jmnaz36fj3qv9980ypfcyn4j3z2xm7kf307jm7x8cklyrwfg9r6ss7jdw0.0', 'channel-7620'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1jw6r4mnzugjgrzpy7nxehkrsnvxazq2zvq9mrtq873nml6fxt29skezah7.0', 'channel-7367'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1jz4unkm3mp88gdtxvdq409fpg36j0ruw90m07hs5sfv7rjyj9ggq83zae6.0', 'channel-8113'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1k39l9u06hrqgj9nz7axzupngt3py630ljf2tnntymu3h0nzjxkas3uhakz.0', 'channel-6971'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1k8apvaa7v5q6nsctf9fl5l2pqd675cd0k7nemmgu95gn4h3d79usuv0y52.0', 'channel-7276'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1k9lnkzcwcveya3fm3hk66dshuvfxkqeh9z0zttdk5yt76t57uaaq9mndvr.0', 'channel-8040'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1kdtrm04sumpe4ps0cxuzv5dta4fvzufajx5gcv6689sywq0d8weqf476ze.0', 'channel-7595'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ke7s825eva7fmmkt59v826ageqkxttkvm0w8pvc05989qwajspcq299udu.0', 'channel-8144'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1kler8lf4devv63xja4phrvehtl3s6jgmq97j5cjnsjryu5s2w9qqve05y6.0', 'channel-7214'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1kmtmg9alxnnn0kntkalque4639ghy7a4csmy0uplfs9h6ykua9yqfzkfrz.0', 'channel-7719'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1krrg5f2ahkcdzwq6p4rgqcsf0q8ee58l3en64d42hzyklg9wxekswac6fv.0', 'channel-7750'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1kthkt3t8wln9mwylwn24t3f97rkewruh9wyaptf8lug8cm46vcsqdreaa5.0', 'channel-7200'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1kuay7tf6cfdj8v06utx5wjammy6w7nn9z7u7uu6xey5595hhvejq9pzp50.0', 'channel-7987'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1kwqv62qeqemm6nkvuav4d50v7n7hdfpkeahepjydvz43xsppcnasuhl53p.0', 'channel-8139'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1l08f6kgc4fj3hzffafquvlc7g3l2j83x2x6vxqkh0xjdpuu9s76qg9f66v.0', 'channel-7387'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1l3kwmcwvv0y4tlt3x25fr3k6jaz07qxtthljelc3g0vg605k3kmshg70yy.0', 'channel-7216'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1l6eeycddr2vl0f8g5aae2lnw03yp0emgekqfhjhsc80hgcgvp4gsmqpxkn.0', 'channel-7850'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1l9g5ntgxmcpg5m8sxdwvslhkz8an9vr5dnmyl9gz2dus5mqpwsus92g6sa.0', 'channel-7624'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ldydzxhanv2qr4cq7andxd2y5trnc57n8cljy588f4vw23ht4h7syqjk9g.0', 'channel-7638'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1lec2yx0gcwhmp5fzh44cj3unxlzf5ykxkkrm6jsxucmh2nnw26lqrtqn06.0', 'channel-7213'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1lhfmmedv22ajsyynxn4r7uj0uk78qpxk22ttpdgmccmpqwk5g9nqf8stzg.0', 'channel-8049'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1lmg9yuk4fpax7s6ssr8la8uuygjfp0tpx9tz6arq9pev9dundr4s9chj7p.0', 'channel-7413'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1lttgm8hg7u9eed7zjrslfxh7l30qc9hecxx4dr4ys3jth220awhqsqrwfw.0', 'channel-8125'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1lus3jqcduuspu84z8nazwp83mc7tgypktmz9k5ny8w8c27ga2z8qcuc8zv.0', 'channel-7341'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1lw4643lyrkx6u5lel55jlxktpgdv9t3qfns505usaxucr8r2zypsmclne4.0', 'channel-6975'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1lzspslzkkqzzcv686jtxafwx0rjn4lurdy4ngjmmzwsk403u0r5sekdd8m.0', 'channel-7508'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1m0uvlq5y9rw6ty7rqamxarnz59tffa4ka4vye44s3q6zgccqutasmz5jkl.0', 'channel-7621'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1m22l6p9vft4rjqt88eq7le8vtk9e3t6ylphesrqp2rqngs9qfv7q2tl0v7.0', 'channel-7346'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1m26ge8ees2s22xs3f39ex6tngs499tp09wwm37k267ezl7wvsv7qwakqkt.0', 'channel-7392'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1m4hvj9r86nyuh83yrtaelrtfnf9cm2hqqy3v5y6k26u5ukq4ke2qqapstu.0', 'channel-7778'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1m6amjate7d785wdfh84h2ky5pt8cutqk2lv0wuglvame3x4q4fwqx4uuqm.0', 'channel-7965'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1mc6j42hd5m9f4pryugnc068sl2qlfcl0cgdfcn2ada28mw2es67qzyerw3.0', 'channel-7277'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1mmr6zeh22rrm7xyfrfqf9xe2sc0zuz4zmah6qurmh7njse8q8fnsnarmjh.0', 'channel-6996'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1mp6kalm7c44tjnzrw4atkeggf89n38s8r5rjm9me5tmytpptdnyq7avank.0', 'channel-7913'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1mu6spc6wghp27dt0vvxnh28xqnm7vrrvkhyspdsya66wzw7h2r0sz0s00a.0', 'channel-7500'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1mupxmgzr5frm8ffk7z4kpj25w5dk86je95jdwlpd9l0v26dklzaqx45jc7.0', 'channel-7910'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ne2l0ghxaskenaj70gvaxd8aztf8vsj6yfcfrqs3lrqc2xqa6lpsja7xga.0', 'channel-7833'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1nfnz7jm7jstgqpjw3ymv9u26jk6qhq3ept490x80sae6zqsrncaq0kc3jv.0', 'channel-7358'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ng8x4qtce0nelxaftfcw7ndgajw9wzwuyh4vwkgdfvk2apgy9qns06kknt.0', 'channel-7712'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1np944243cy6eeetgwdkrxvgcy40cnu2a2fq7cf4wvwrr5efq77kstwq2lh.0', 'channel-7303'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1nxwwk38y8kwnkvhtrje2ym08q04lfu7fqh3yrjgcgq7vcn33rkpsrj3xmq.0', 'channel-7254'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1nyu7jv9k4q83xede6funxfzuvmzw2e97ylfeqlrzx4fpfygxvrhsqckgkm.0', 'channel-7327'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1p0ex9v42qr5vufmyufqw6x5amplfmywm5mgmnqdedq0ljqsezadqusk0j7.0', 'channel-7237'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1peqfgyeyrk934evufzkwvner4fa5fgw3ynm8sfx0h7ylz5fyc5hqq3vgyq.0', 'channel-7662'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1pps2z2d7h6750cyu3k79qw700p4uf854exgr7rps76l770jlrsrq4ecnz3.0', 'channel-7411'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1psw6ugdjm82mqnm4cj649e3jgu9pwe3p8jnrk7qjf284knq3crfsh7pk2r.0', 'channel-6779'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1pwkev56pgnsh0csjldl93hnzfze3jfvk68wgt0grdg8d39r7cs7ssjf6ua.0', 'channel-7585'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1q3pfmdzh2jhct3xdrw23t77flhzpe6v9sdn6w24hd3tk9gap4kzqus4ekw.0', 'channel-7230'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1q8pyf27k8x0psp5m7z4ezve5yd2emhl8t82qwh2p3s0nyl0l67kqp6pkce.0', 'channel-7937'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1q8t78xk64g5pxvgsyvxl5d26vjdz7vlpcpxtjv9r3jnwf3fe7sfqssd0uh.0', 'channel-7539'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1q98e5zxtp6c0e6k9fcurjdjn9xpj3ptsx5s90f8aty4hxls8c7cqxfvh08.0', 'channel-8024'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1q9pqya9rvhpl6ykg92ty9qzz4fmd4pae6lvvfryfze09phxsyehse28898.0', 'channel-7659'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1qlvgdehyhflyk2f34jgedta6945y3cmzkstcdz8cxqe9msvw333s8p43vz.0', 'channel-6978'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1qpjxya9geqdn8mz2cvq7quz8m3q4ed05n0ydq0qvp2w9aw24077st8g2c8.0', 'channel-7777'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1qq4fqgdgvqxrh94sy2qu3cw2mrzfe0ms5nm2lu8ajlqjh2hzp5sqm7dc5w.0', 'channel-7834'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1qrdgnet4j84dnggpf92a5e3e8qklplgz45322mlzdcewahm0neaqnwuunv.0', 'channel-7312'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1r02aa22h9dqer0ljqtdkzf5x4p2h56wuyclxumulvjz8cvaxrqwquepv5r.0', 'channel-7363'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1r28kx0mgwhxj8y5f0hkfp78zffsr0sdaxtkzegl9e52fadd6w05q8dvt0x.0', 'channel-8063'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1r48wjd2a6w43fdyjglfhwyald4wjpnhjk3lzgcdzgea7n7l0zywqxckrv8.0', 'channel-7935'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1r80z784lhxkqlusse2hkm8axsl8esvjpzjdtkk86rejz536hh3jsejvyuh.0', 'channel-7461'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1rc3tccy369f5hs3sl6mzhx3dgr65uld95ma43nl39nnl99ueu8sqkgju9z.0', 'channel-7730'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1rdkrtxyskgrrvwhycrnljz5drj7lv50yzjekpg0q3g7njrl2jyasfk2m6x.0', 'channel-8066'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1reph9p2dztkucxn9rf582kaasf36afr7p2g2h4tp9eq0efdyuu5svuate3.0', 'channel-7695'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1rg9syudxs87j39f8puslmfffkh67cszzds2ga20vvput0twlkwlqf3z72d.0', 'channel-7632'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1rra9kkw4zlqcs9h6qrzxpladzaq5llajw3yalg29pe4x3tued27s8txqjs.0', 'channel-7432'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ry4cr3dy684a4fg2dwvtwfcr2sf4jx8297pkzqq5uvlxz3l2f78sflekkw.0', 'channel-7989'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1s57xj9qded79jrqagchpl02wwygd7h3nhj7r8xen8e2qp38ncwsqzywhtk.0', 'channel-7236'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1s74e89zvrw4lmmd50pch8upm664unrqftec3d9lq339y7uesf2esvu7cha.0', 'channel-7801'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1sc4tsjw0w45txggh9py4dcstmunhn3y39hk5qytajr0vd6rxvxgqegqs8p.0', 'channel-7613'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1scr58w5c5q52k9wuctrledxx3f7sl0qdlndrzj97rt9q2khstamqe4xqgw.0', 'channel-7721'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1sllmgzw4x0vzrepnlsv4ep6a0qltt0spenrtvq5fhafzmql8rcesr094tx.0', 'channel-7285'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1slvdwf56phjnlv5uukg3ymwvcf3vlyc73y7w32hym6xvrf4tvymsumq0qt.0', 'channel-7206'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1smuhhhlcu9y9g6q58zkyz4rylj397l4fk3yr3thvm6ahx64ffjvqdlq84l.0', 'channel-7424'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1st0069204f7vfdw0c7z3gmyap5aj4w55rwlg7usphshnfm27pxtqvya643.0', 'channel-7526'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1syt3rs7422q8mgeldq3ulcte07xjx8g530hut0nenjjtcjj5c9hsydmudp.0', 'channel-7209'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1syt4qfkm8s6nzjqfpf0a6ve3a2ec7q0gnj046hwpg75apq9cwxksyjeh7x.0', 'channel-7839'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1syx2hpamalr0wfzpugzd7dfqg00qsfd0wzq509ff4v0h9hdr2u4sp0vmlg.0', 'channel-7420'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1t5f4660ttxnsjh4acwwupzmsakuzcg8t5zjwgmxpk2zg0mktecmq0z8l30.0', 'channel-8115'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1t8jx38ewqyxmdv7wg7lcu6wj9dluywyw3zdmz5k9plp23nzfd3eqk728rq.0', 'channel-7302'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1t8x7hkq3h3mgtfzs0ysndc43rzhpj7y7p756855zevftj67lt7js96w4kw.0', 'channel-7393'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1t8xumyunrvq8f06epnwedy7n9f63j3cl7m95r33xnr4zdhdtz8uq3kwl6n.0', 'channel-7077'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1tdtz4qa32thwcr9ssr25lyuxelxkmhrlt88n7pu72lpct6wa5cas67zmuf.0', 'channel-7195'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1th7k2ktnsaeurgnhged97eaxxu8qjvgc6rh6tuhu0l56tf4zmexqhzmgvj.0', 'channel-8140'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1tj7enfakj4qq0jnqm88mv9hppdnjgn5jc04p6nmgr7xxydwxmtgsn5eekp.0', 'channel-7221'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1tpgl3m7005vpk3pqp8nqe98mdltyk09zkee5gttsj9laev9arftqymj9ak.0', 'channel-7449'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1tuthua8dz3hnr52a3nw02sdk3mp7rlf37ujaesaleagxpg2rfufsknakkd.0', 'channel-7227'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1u75tqwqs6s6yeelclt56a9d58fgcsqxd4u52kjttcrq8mzy3l6ps9f0vch.0', 'channel-7320'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1uagk6r3avp7tq8aa5cck4g0wh26fdxt6d3wfexnesrr4706ed7zsrshxq9.0', 'channel-7843'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1uay2d6r8xhdzyzlzu3tyg3c40y46l9zv3w0jhap2704jppvyj2hq82lmjl.0', 'channel-7554'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1udkxyfeh7kxjnzm0exfaq9hncqzm3rj59gut4qnll0gq2z4yff0sda5aw2.0', 'channel-6588'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ukgszp5f8szejyepvqd5tx4x9ejwgaxxumzmwk00kwghhds6kdvsueg897.0', 'channel-7268'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ult20h5jm7egmrtcglm3vql5ztanje77l2f4h87zjmummjpqy29scce59z.0', 'channel-7761'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ut5k8m2slk4lllg49n5plu6kjr06vz8x6atgd9n3qd60wn36slyszxevlz.0', 'channel-7658'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ux40tz4s65u4amd3cfpsav39nsf02hklaewgmtksjevy53z57ehst9ukju.0', 'channel-7893'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ux8w23mcp6wewhuc8sm6wqqk4psn6pm2nqwtuaxhhknfc6huxnustphdfr.0', 'channel-7754'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1v4rcmu4m9y8ha45jdkej9cv9qnqd24aj0n8gus4xdyn0c6k82ujqf8ppj6.0', 'channel-7490'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1v5rj59h34pv4l3xv2r7myqn2gz39jwgrnj7s8lppfnvetauusmtqyxhm6k.0', 'channel-7202'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1vap20zjgayggc3zukpl66upm0v3wufx3jas739x2nf24ug4zthvq63szz7.0', 'channel-7631'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1vda07pk2hva0kqh594qysxjmc7nzkpagpsygzhrac99l4sgdnp7qmn0mqs.0', 'channel-7630'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1vgyjtmugm39qu6qsfew4lfvp24ch3qysg75lp7qcpef0stgg22zq4c87wq.0', 'channel-8006'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1vlqc0ul2aaa2dadf30drp5lmyqzu6g7fg40ur96z06sn565gwn0qfqwpp2.0', 'channel-8000'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1vrcctmrakl58xl5g9m379x7jn6c562nwv6avxjdj6x89axs9tj5qp5l6dd.0', 'channel-7498'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1vv0sgn53uxw4xs7jqcerf8jld07jk9sppegzzztsvfakhxd2z2xq62qpwq.0', 'channel-6983'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1w3wasljuga8hgnpphqtz6a22up5m6lgulsv5vrvpurqh5ten2xrqzqvs0c.0', 'channel-8060'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1w72e89cyx0mgth07yax764mgk0t5m5aysqhsllhlu8nc05czcg2q3tfltt.0', 'channel-8064'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1w7y5a577uvz6ptw383mq0kage937uqsuc7ny4uk823u264nrtasqa00ewj.0', 'channel-7670'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1w9x39mcmtv8mhrvmualgjwq46ykl8uuqh8uzyzp9jan35petrh9qdjprg9.0', 'channel-7256'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1wdz5hw4t5zxuhse06mhu2g2dp4kcryq4592qn6mpnvw57htn7cjs40cc9r.0', 'channel-7557'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1wv9z8hnxsfw0qerzfmhwhezafjzqup60znrjwg0yj33cst453kus9aqdcz.0', 'channel-7770'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1x0xw622tgra5ysda8d0xnf7sart836f405030hwvyptk25zaz3gqth2k4q.0', 'channel-7622'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1x5mapdzsyw834jgaqs49kns26ej0w7wu3fy4vyhds0wjyr0p567s75362f.0', 'channel-7531'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1xfaz52nem8sq472x4dasklkalgrq5602dqgv54mmru6432nlzrmqpkydms.0', 'channel-7423'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1xgceppfdq2cwyyw7d0tyj06sehajzu73zls777h0aud9jx68evjq2nmq7a.0', 'channel-7627'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1xp2p2nfudhy0peh3jv93jeenwvvnspn4rl6hrpdx8k9j9630c5wqwmuwmd.0', 'channel-7479'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1y060r72fnx9wrd86dyqhl93jyce8dnrh4k7q2hhdewd90c6gf26szjnppe.0', 'channel-7250'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1y4ytpc7wltmkfpchryr0saq4phvlhlrey5s3z3mma8xr00ttdmdsunqglw.0', 'channel-7281'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1yfpmnseu2n62hdm7znasnmhuvwwsr3tlkumfzx93r066upnt05lqx6fdpg.0', 'channel-7020'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1yhcph5r2x9rss6tluptttma736rknasjwn3659620ysu5fhmx2wq47gmch.0', 'channel-6778'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ymmyxfnlpc8haxs27azku7te7qeyz6z3qe6725w4f067xy9heusqzwd7qa.0', 'channel-7902'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1yr7dpr24kr3wcnsjfrwth8hrtat3fehxvx6ncupzmnl0k9t7kt0quexe86.0', 'channel-8109'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ytxyjchhwm8k32x5j0zsuvwv2d8nyguasuujytm3pphstpefjausxahr5k.0', 'channel-7951'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ywukajvcerhu6xkm2fjn3puzlahg4eggvmdh0l5y5rjhhaj8sptqq4ev97.0', 'channel-7235'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1z29v3y2jevk80rxvhmxjewjsqtu2cys66jfqrz3ffsvy4r78v3ss4735kd.0', 'channel-7872'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1z8n5adk3kq8dldgc9m7eamwtlsc7h8duk7q5tx78xftzflwafqdsjay5d9.0', 'channel-7639'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1z9hn67esxh98waenp72v5gsqvdtmqmju0zn24x2ntvsk7ndlrv4qzpq4qg.0', 'channel-7961'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1zace5elq8nkvr5gjt2tu9n76tw6cfezrzae5fya0k6rk6r9pa5rsytdrlx.0', 'channel-7074'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1zcght54x5xxutfcgq59c05xj7p5su5m5qlsdax6x5ef75zsahqlsrxtl4h.0', 'channel-7720'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1zdgg6l6eu905x2lp9gyymelxl89zknzvrpf328j2dvvj6yk65d8qhs50qn.0', 'channel-7871'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1zftt6kp0smm7dxyr5gjct7tdlxjk8y2vdr4l8n875559h3j4u4vqvfyyhg.0', 'channel-7000'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1zt7gse5u2kfw2v9affyfhyxu93rnm90y988ae63z52gdcjrged6qyaaccw.0', 'channel-7876'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1ztncmhwew4mvz4sj4edd26gmsu7helpkj5n8lyganwxk2eulp30su9x9hg.0', 'channel-7718'], # Matched icahost wildcard from neutron-1
+  ['icacontroller-nolus1zw2l7utd566jnrjfwcsk2yqz3jq08hnqxcc6fnv567dzwkprta5s6ujxty.0', 'channel-7521'], # Matched icahost wildcard from neutron-1
+  ['transfer', 'channel-3839'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'core-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-136'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'chihuahua-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-76'], # Matched direct from neutron-1
+  ['wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52', 'channel-77'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'mars-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-37'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'kaiyo-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-75'], # Matched direct from neutron-1
+  ['wasm.kujira14dckdzh7t30lkpdr0hgdqsqh52erux4tst5rl7jhvc693plnm39qp2r95q', 'channel-140'], # Matched wasm wildcard from neutron-1
+  ['wasm.kujira1uexv52ffftauns6v2vlgvahc42k92nn0j0qa94u8re6dgp8zgfgqpw8uef', 'channel-138'], # Matched wasm wildcard from neutron-1
+]
+
+[[chains]]
+id = 'centauri-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-18'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'dymension_1100-1'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-9'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'nois-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-47'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'kava_2222-10'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+    [ 'transfer', 'channel-136' ], # neutron-1
+]
+
+[[chains]]
+id = 'secret-4'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-136'], # Matched direct from neutron-1
+]
+
+[[chains]]
+id = 'injective-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['icahost', 'channel-190'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-209'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-210'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-212'], # Matched icacontroller wildcard from neutron-1
+  ['icahost', 'channel-215'], # Matched icacontroller wildcard from neutron-1
+  ['transfer', 'channel-177'], # Matched direct from neutron-1
+]
+
+[[chains]]
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-89'], # Matched direct from neutron-1
+]
