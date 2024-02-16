@@ -1,0 +1,185 @@
+[[chains]]
+id = 'kava_2222-10'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-0'], # kava_2222-10 to cosmoshub-4
+  ['transfer', 'channel-1'], # kava_2222-10 to osmosis-1
+  ['transfer', 'channel-116'], # kava_2222-10 to kaiyo-1
+  ['transfer', 'channel-117'], # kava_2222-10 to evmos_9001-2
+  ['transfer', 'channel-120'], # kava_2222-10 to migaloo-1
+  ['transfer', 'channel-122'], # kava_2222-10 to injective-1
+  ['transfer', 'channel-129'], # kava_2222-10 to phoenix-1
+  ['transfer', 'channel-132'], # kava_2222-10 to pacific-1
+  ['transfer', 'channel-133'], # kava_2222-10 to agoric-3
+  ['transfer', 'channel-137'], # kava_2222-10 to dydx-mainnet-1
+  ['transfer', 'channel-138'], # kava_2222-10 to phoenix-1
+  ['transfer', 'channel-139'], # kava_2222-10 to noble-1
+  ['transfer', 'channel-140'], # kava_2222-10 to celestia
+  ['transfer', 'channel-5'], # kava_2222-10 to akashnet-2
+  ['transfer', 'channel-87'], # kava_2222-10 to canto_7700-1
+]
+
+[[chains]]
+id = 'osmosis-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-143'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'akashnet-2'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-37'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'agoric-3'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-63'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'cosmoshub-4'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-277'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'evmos_9001-2'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-83'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'kaiyo-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-95'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'phoenix-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-216'], # Matched direct from kava_2222-10
+  ['transfer', 'channel-272'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'canto_7700-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-13'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'migaloo-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-48'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'injective-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-143'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'axelar-dojo-1'
+
+[[chains]]
+id = 'pacific-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-18'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'cronosmainnet_25-1'
+
+[[chains]]
+id = 'dydx-mainnet-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-7'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'noble-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-37'], # Matched direct from kava_2222-10
+]
+
+[[chains]]
+id = 'celestia'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-13'], # Matched direct from kava_2222-10
+]
