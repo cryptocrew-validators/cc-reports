@@ -1,7 +1,7 @@
 # IBC-PERSISTENCE
 
-- [Channel filter list](./config-hermes.toml)
-- [Channel & connection state core-1](./ibc-persistence/config-hermes.toml)
+- [Channel filter list](config-hermes.toml)
+- [Channel & connection state core-1](ibc-persistence/config-hermes.toml)
 
 ## Relayer Accounts
 | address                                   | chain     | 
