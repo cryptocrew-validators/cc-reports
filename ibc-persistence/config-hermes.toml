@@ -1,163 +1,200 @@
+# filter lists are periodically updated
+
 [[chains]]
 id = 'core-1'
-clear_interval = 10
-client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
 [chains.packet_filter]
 policy = 'allow'
-list = [
-
-    [ 'transfer', 'channel-24' ], # cosmoshub-4 transfer
-
-    ['icacontroller-lscosmos_pstake_delegation_account','channel-133'], # cosmoshub-4 icacontroller
-
-    ['icacontroller-lscosmos_pstake_reward_account, osmosis-1','channel-53'], # cosmoshub-4 icacontroller
-
-    ['icacontroller-persistence18dsfsljczehwd5yem9qq2jcz56dz3shp48j3zj','channel-141'], # cosmoshub-4 icacontroller
-
-    ['transfer','channel-6'], # osmosis-1 transfer
-
-    ['icacontroller-osmosis-1.delegate','channel-142'], # osmosis-1 icacontroller
-
-    ['icacontroller-osmosis-1.rewards','channel-144'], # osmosis-1 icacontroller
-
-    [ 'transfer', 'channel-131' ], # dydx-mainnet-1 transfer
-
-    [ 'transfer', 'channel-136' ], # neutron-1 transfer
-
-    [ 'transfer', 'channel-132' ], # noble-1 transfer
-
-    [ 'transfer', 'channel-129' ], # kava_2222-10 transfer
-
-    ['icacontroller-*','*'], # icacontroller wildcard
-
+list = [  ['icacontroller-agoric-3.rewards', 'channel-209'], # core-1 to agoric-3
+  ['icacontroller-chihuahua-1.delegate', 'channel-229'], # core-1 to chihuahua-1
+  ['icacontroller-chihuahua-1.rewards', 'channel-215'], # core-1 to chihuahua-1
+  ['icacontroller-dydx-mainnet-1.delegate', 'channel-198'], # core-1 to dydx-mainnet-1
+  ['icacontroller-dydx-mainnet-1.delegate', 'channel-240'], # core-1 to dydx-mainnet-1
+  ['icacontroller-dydx-mainnet-1.rewards', 'channel-154'], # core-1 to dydx-mainnet-1
+  ['icacontroller-lscosmos_pstake_delegation_account', 'channel-214'], # core-1 to cosmoshub-4
+  ['icacontroller-lscosmos_pstake_delegation_account', 'channel-55'], # core-1 to cosmoshub-4
+  ['icacontroller-lscosmos_pstake_delegation_account', 'channel-56'], # core-1 to cosmoshub-4
+  ['icacontroller-lscosmos_pstake_delegation_account', 'channel-59'], # core-1 to cosmoshub-4
+  ['icacontroller-lscosmos_pstake_delegation_account', 'channel-60'], # core-1 to cosmoshub-4
+  ['icacontroller-lscosmos_pstake_delegation_account', 'channel-61'], # core-1 to cosmoshub-4
+  ['icacontroller-lscosmos_pstake_reward_account', 'channel-53'], # core-1 to cosmoshub-4
+  ['icacontroller-osmosis-1.delegate', 'channel-190'], # core-1 to osmosis-1
+  ['icacontroller-osmosis-1.delegate', 'channel-193'], # core-1 to osmosis-1
+  ['icacontroller-osmosis-1.delegate', 'channel-194'], # core-1 to osmosis-1
+  ['icacontroller-osmosis-1.delegate', 'channel-242'], # core-1 to osmosis-1
+  ['icacontroller-osmosis-1.rewards', 'channel-137'], # core-1 to osmosis-1
+  ['icacontroller-osmosis-1.rewards', 'channel-138'], # core-1 to osmosis-1
+  ['icacontroller-osmosis-1.rewards', 'channel-140'], # core-1 to osmosis-1
+  ['icacontroller-osmosis-1.rewards', 'channel-144'], # core-1 to osmosis-1
+  ['icacontroller-persistence18dsfsljczehwd5yem9qq2jcz56dz3shp48j3zj', 'channel-141'], # core-1 to cosmoshub-4
+  ['icacontroller-pstake_ratesync_1', 'channel-218'], # core-1 to osmosis-1
+  ['icacontroller-pstake_ratesync_2', 'channel-219'], # core-1 to kaiyo-1
+  ['icacontroller-pstake_ratesync_3', 'channel-243'], # core-1 to neutron-1
+  ['icacontroller-stargaze-1.delegate', 'channel-246'], # core-1 to stargaze-1
+  ['icacontroller-stargaze-1.rewards', 'channel-239'], # core-1 to stargaze-1
+  ['icahost', 'channel-221'], # core-1 to neutron-1
+  ['icahost', 'channel-222'], # core-1 to neutron-1
+  ['icahost', 'channel-223'], # core-1 to neutron-1
+  ['icahost', 'channel-224'], # core-1 to neutron-1
+  ['icahost', 'channel-84'], # core-1 to quicksilver-2
+  ['transfer', 'channel-129'], # core-1 to kava_2222-10
+  ['transfer', 'channel-130'], # core-1 to agoric-3
+  ['transfer', 'channel-131'], # core-1 to dydx-mainnet-1
+  ['transfer', 'channel-132'], # core-1 to noble-1
+  ['transfer', 'channel-136'], # core-1 to neutron-1
+  ['transfer', 'channel-152'], # core-1 to kaiyo-1
+  ['transfer', 'channel-155'], # core-1 to agoric-3
+  ['transfer', 'channel-156'], # core-1 to archway-1
+  ['transfer', 'channel-158'], # core-1 to secret-4
+  ['transfer', 'channel-159'], # core-1 to secret-4
+  ['transfer', 'channel-197'], # core-1 to stargaze-1
+  ['transfer', 'channel-202'], # core-1 to agoric-3
+  ['transfer', 'channel-203'], # core-1 to chihuahua-1
+  ['transfer', 'channel-213'], # core-1 to akashnet-2
+  ['transfer', 'channel-217'], # core-1 to carbon-1
+  ['transfer', 'channel-24'], # core-1 to cosmoshub-4
+  ['transfer', 'channel-37'], # core-1 to juno-1
+  ['transfer', 'channel-38'], # core-1 to gravity-bridge-3
+  ['transfer', 'channel-41'], # core-1 to injective-1
+  ['transfer', 'channel-47'], # core-1 to exchain-66
+  ['transfer', 'channel-51'], # core-1 to axelar-dojo-1
+  ['transfer', 'channel-6'], # core-1 to osmosis-1
+  ['transfer', 'channel-67'], # core-1 to stride-1
+  ['transfer', 'channel-68'], # core-1 to crescent-1
+  ['transfer', 'channel-71'], # core-1 to comdex-1
+  ['transfer', 'channel-73'], # core-1 to quicksilver-2
+  ['transfer', 'channel-75'], # core-1 to gravity-bridge-3
+  ['transfer', 'channel-76'], # core-1 to gravity-bridge-3
+  ['transfer', 'channel-77'], # core-1 to gravity-bridge-3
+  ['transfer', 'channel-78'], # core-1 to gravity-bridge-3
+  ['transfer', 'channel-79'], # core-1 to acre_9052-1
+  ['transfer', 'channel-80'], # core-1 to canto_7700-1
+  ['transfer', 'channel-81'], # core-1 to umee-1
+  ['transfer', 'channel-82'], # core-1 to secret-4
 ]
 
 [[chains]]
 id = 'osmosis-1'
-client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
 [chains.packet_filter]
 policy = 'allow'
-list = [ 
-
-    [ 'transfer', 'channel-4' ], # core-1 transfer
-
-    [ 'icahost', 'channel-14971' ], # core-1 icahost
-
-    [ 'icahost', 'channel-15078' ], # core-1 icahost
-
-    ['icahost','*'], # icahost wildcard
-
+list = [  ['icahost', '*'], # Matched direct from core-1
+  ['icahost', 'channel-15078'], # Matched direct from core-1
+  ['icahost', 'channel-35843'], # Matched direct from core-1
+  ['icahost', 'channel-39297'], # Matched direct from core-1
+  ['transfer', 'channel-4'], # Matched direct from core-1
 ]
 
 [[chains]]
 id = 'cosmoshub-4'
-client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
 [chains.packet_filter]
 policy = 'allow'
-list = [ 
-
-    [ 'transfer', 'channel-190' ], # core-1 transfer
-
-    [ 'icahost', 'channel-733' ], # core-1 icahost
-
-    [ 'icahost', 'channel-428' ], # core-1 icahost
-
-    [ 'icahost', 'channel-763' ], # core-1 icahost
-
-    ['icahost','*'], # icahost wildcard
-
+list = [  ['icahost', '*'], # Matched direct from core-1
+  ['icahost', 'channel-428'], # Matched direct from core-1
+  ['icahost', 'channel-475'], # Matched direct from core-1
+  ['icahost', 'channel-763'], # Matched direct from core-1
+  ['transfer', 'channel-190'], # Matched direct from core-1
 ]
 
 [[chains]]
 id = 'dydx-mainnet-1'
-clear_interval = 25
-client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
 [chains.packet_filter]
 policy = 'allow'
-list = [
-
-    [ 'transfer', 'channel-4' ], # core-1 transfer
-
-    ['icahost','*'], # icahost wildcard
-
+list = [  ['icahost', '*'], # Matched direct from core-1
+  ['icahost', 'channel-25'], # Matched direct from core-1
+  ['icahost', 'channel-61'], # Matched direct from core-1
+  ['transfer', 'channel-4'], # Matched direct from core-1
 ]
 
 [[chains]]
 id = 'neutron-1'
-clear_interval = 25
-client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
 [chains.packet_filter]
 policy = 'allow'
-list = [ 
-
-    [ 'transfer', 'channel-49' ], # core-1 transfer
-
+list = [  ['icacontroller-neutron13f6kaaudy7cz3r2d5nm5vwa5y8ggyzukzkx6c820av9lxk5agq7qaekcst.ica', 'channel-1892'], # Matched direct from core-1
+  ['icacontroller-neutron13f6kaaudy7cz3r2d5nm5vwa5y8ggyzukzkx6c820av9lxk5agq7qaekcst.ica', 'channel-1893'], # Matched direct from core-1
+  ['icacontroller-neutron1a2q3t9p6w0z59264jqxvwxyt0t3z498qpq083jl4xv8ew285fvpsdkmm6f.ica', 'channel-1889'], # Matched direct from core-1
+  ['icacontroller-neutron1a2q3t9p6w0z59264jqxvwxyt0t3z498qpq083jl4xv8ew285fvpsdkmm6f.ica', 'channel-1890'], # Matched direct from core-1
+  ['icahost', 'channel-2086'], # Matched direct from core-1
+  ['transfer', 'channel-49'], # Matched direct from core-1
 ]
 
 [[chains]]
 id = 'noble-1'
-memo_prefix = 'relayed by CryptoCrew Validators'
-client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
 [chains.packet_filter]
 policy = 'allow'
-list = [
-
-    [ 'transfer', 'channel-43' ], # core-1 transfer
-
+list = [  ['transfer', 'channel-36'], # Matched direct from core-1
 ]
 
 [[chains]]
 id = 'kava_2222-10'
-memo_prefix = 'relayed by CryptoCrew Validators'
-client_refresh_rate = '1/30'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
 [chains.packet_filter]
 policy = 'allow'
-list = [ 
-  
-    [ 'transfer', 'channel-134' ], # core-1 transfer
-
+list = [  ['transfer', 'channel-134'], # Matched direct from core-1
 ]
-
 
 [[chains]]
-id = "kaiyo-1"
-clear_interval = 25
-client_refresh_rate = '1/30'
+id = 'kaiyo-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
 [chains.packet_filter]
-policy = "allow"
-list = [ 
-
-#    [ "transfer", "channel-75" ], # neutron-1
-
+policy = 'allow'
+list = [  ['icahost', 'channel-164'], # Matched direct from core-1
+  ['transfer', 'channel-158'], # Matched direct from core-1
 ]
 
+[[chains]]
+id = 'stargaze-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  ['icahost', 'channel-306'], # Matched direct from core-1
+  ['icahost', 'channel-310'], # Matched direct from core-1
+  ['transfer', 'channel-287'], # Matched direct from core-1
+]
 
-[global]
-log_level = 'debug'
+[[chains]]
+id = 'chihuahua-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  ['icahost', 'channel-101'], # Matched direct from core-1
+  ['icahost', 'channel-98'], # Matched direct from core-1
+  ['transfer', 'channel-94'], # Matched direct from core-1
+]
 
-[rest]
-enabled = true
-host = '0.0.0.0'
-port = 3000
-
-[telemetry]
-enabled = true
-host = '0.0.0.0'
-port = 3001
-
-[mode.clients]
-enabled = true
-refresh = true
-misbehaviour = false
-
-[mode.connections]
-enabled = false
-
-[mode.channels]
-enabled = true
-
-[mode.packets]
-enabled = true
-clear_interval = 25
-clear_on_start = true
-tx_confirmation = true
+[[chains]]
+id = 'agoric-3'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  ['icahost', 'channel-73'], # Matched direct from core-1
+  ['transfer', 'channel-67'], # Matched direct from core-1
+  ['transfer', 'channel-71'], # Matched direct from core-1
+  ['transfer', 'channel-72'], # Matched direct from core-1
+]
