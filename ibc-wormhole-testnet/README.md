@@ -24,7 +24,7 @@
 - [gatewaytestnet <> stargazetestnet](./gatewaytestnet-stargazetestnet.json)
 
 ## Relayer Accounts
-- `wormchain`
+- `wormchain-testnet-0`
 ```
 wormhole1z44ss28au3vse2ahtcrt7t5q0hk898casqsfq6
 ```
