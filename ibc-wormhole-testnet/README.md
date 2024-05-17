@@ -5,8 +5,8 @@
 | Source Chain       | Source Channel   | Source Port        | Destination Chain   | Destination Channel   | Destination Port    | CC Relayer  |
 |--------------------|------------------|--------------------|---------------------|-----------------------|---------------------|-------------|
 | `wormchain-testnet-0` | `channel-11`     | `wasm.*` | `pion-1`            | `channel-481`         | `wasm.*` |     ✅      |
-| `wormchain-testnet-0` | `channel-12`     | `wasm.*` | `pion-1`            | `channel-481`         | `wasm.*` |     ✅      |
-| `wormchain-testnet-0` | `channel-13`     | `wasm.*` | `pion-1`            | `channel-481`         | `wasm.*` |     ✅      |
+| `wormchain-testnet-0` | `channel-12`     | `wasm.*` | `pion-1`            | `channel-497`         | `wasm.*` |     ✅      |
+| `wormchain-testnet-0` | `channel-13`     | `wasm.*` | `pion-1`            | `channel-508`         | `wasm.*` |     ✅      |
 | `wormchain-testnet-0` | `channel-15`     | `transfer`         | `injective-888`     | `channel-76973`       | `transfer`          |     ✅      |
 | `wormchain-testnet-0` | `channel-16`     | `transfer`         | `harpoon-4`         | `channel-114`         | `transfer`          |     ✅      |
 | `wormchain-testnet-0` | `channel-17`     | `transfer`         | `elgafar-1`         | `channel-949`         | `transfer`          |     ✅      |
