@@ -4,9 +4,9 @@
 
 | Source Chain       | Source Channel   | Source Port        | Destination Chain   | Destination Channel   | Destination Port    | CC Relayer  |
 |--------------------|------------------|--------------------|---------------------|-----------------------|---------------------|-------------|
-| `wormchain-testnet-0` | `channel-11`     | `wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj` | `pion-1`            | `channel-481`         | `wasm.neutron1rhqgnak5z0pla5sgqq7ykqh8glckk4h67fe0hgjfcyulx2nqa0yqaswtnp` |     ✅      |
-| `wormchain-testnet-0` | `channel-12`     | `wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj` | `pion-1`            | `channel-481`         | `wasm.neutron1rhqgnak5z0pla5sgqq7ykqh8glckk4h67fe0hgjfcyulx2nqa0yqaswtnp` |     ✅      |
-| `wormchain-testnet-0` | `channel-13`     | `wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj` | `pion-1`            | `channel-481`         | `wasm.neutron1rhqgnak5z0pla5sgqq7ykqh8glckk4h67fe0hgjfcyulx2nqa0yqaswtnp` |     ✅      |
+| `wormchain-testnet-0` | `channel-11`     | `wasm.*` | `pion-1`            | `channel-481`         | `wasm.*` |     ✅      |
+| `wormchain-testnet-0` | `channel-12`     | `wasm.*` | `pion-1`            | `channel-481`         | `wasm.*` |     ✅      |
+| `wormchain-testnet-0` | `channel-13`     | `wasm.*` | `pion-1`            | `channel-481`         | `wasm.*` |     ✅      |
 | `wormchain-testnet-0` | `channel-15`     | `transfer`         | `injective-888`     | `channel-76973`       | `transfer`          |     ✅      |
 | `wormchain-testnet-0` | `channel-16`     | `transfer`         | `harpoon-4`         | `channel-114`         | `transfer`          |     ✅      |
 | `wormchain-testnet-0` | `channel-17`     | `transfer`         | `elgafar-1`         | `channel-949`         | `transfer`          |     ✅      |
