@@ -1,0 +1,84 @@
+[[chains]]
+id = 'wormchain-testnet-0'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-15'], # wormchain-testnet-0 to injective-888
+  ['transfer', 'channel-16'], # wormchain-testnet-0 to harpoon-4
+  ['transfer', 'channel-17'], # wormchain-testnet-0 to elgafar-1
+  ['transfer', 'channel-18'], # wormchain-testnet-0 to blumbus_111-1
+  ['transfer', 'channel-19'], # wormchain-testnet-0 to osmo-test-5
+  ['transfer', 'channel-20'], # wormchain-testnet-0 to evmos_9000-4
+  ['wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj', 'channel-11'], # wormchain-testnet-0 to pion-1
+  ['wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj', 'channel-12'], # wormchain-testnet-0 to pion-1
+  ['wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj', 'channel-13'], # wormchain-testnet-0 to pion-1
+]
+
+[[chains]]
+id = 'osmo-test-5'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-7904'], # Matched direct from wormchain-testnet-0
+]
+
+[[chains]]
+id = 'injective-888'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-76973'], # Matched direct from wormchain-testnet-0
+]
+
+[[chains]]
+id = 'evmos_9000-4'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-240'], # Matched direct from wormchain-testnet-0
+]
+
+[[chains]]
+id = 'elgafar-1'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-949'], # Matched direct from wormchain-testnet-0
+]
+
+[[chains]]
+id = 'pion-1'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['wasm.neutron1enf63k37nnv9cugggpm06mg70emcnxgj9p64v2s8yx7a2yhhzk2q6xesk4', 'channel-497'], # Matched direct from wormchain-testnet-0
+  ['wasm.neutron1enf63k37nnv9cugggpm06mg70emcnxgj9p64v2s8yx7a2yhhzk2q6xesk4', 'channel-508'], # Matched direct from wormchain-testnet-0
+  ['wasm.neutron1rhqgnak5z0pla5sgqq7ykqh8glckk4h67fe0hgjfcyulx2nqa0yqaswtnp', 'channel-481'], # Matched direct from wormchain-testnet-0
+]
+
+[[chains]]
+id = 'blumbus_111-1'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-23'], # Matched direct from wormchain-testnet-0
+]
+
+[[chains]]
+id = 'harpoon-4'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-114'], # Matched direct from wormchain-testnet-0
+]
+
+[[chains]]
+id = 'atlantic-2'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+]
