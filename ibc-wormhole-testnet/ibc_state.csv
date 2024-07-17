@@ -1,10 +1,10 @@
 CHAIN_ID, CLIENT, CONNECTION, CHANNEL, PORT, COUNTERPARTY_CHAIN, COUNTERPARTY_CLIENT, COUNTERPARTY_CONNECTION, COUNTERPARTY_CHANNEL, COUNTERPARTY_PORT
 wormchain-testnet-0, 07-tendermint-41, connection-13, channel-11, wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj, pion-1, 07-tendermint-179, connection-153, channel-481, wasm.neutron1rhqgnak5z0pla5sgqq7ykqh8glckk4h67fe0hgjfcyulx2nqa0yqaswtnp
-wormchain-testnet-0, 07-tendermint-41, connection-13, channel-13, wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj, pion-1, 07-tendermint-179, connection-153, channel-508, wasm.neutron1enf63k37nnv9cugggpm06mg70emcnxgj9p64v2s8yx7a2yhhzk2q6xesk4
 wormchain-testnet-0, 07-tendermint-42, connection-14, channel-12, wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj, pion-1, 07-tendermint-192, connection-157, channel-497, wasm.neutron1enf63k37nnv9cugggpm06mg70emcnxgj9p64v2s8yx7a2yhhzk2q6xesk4
-wormchain-testnet-0, 07-tendermint-45, connection-17, channel-15, transfer, injective-888, 07-tendermint-270, connection-239, channel-76973, transfer
-wormchain-testnet-0, 07-tendermint-47, connection-18, channel-16, transfer, harpoon-4, 07-tendermint-74, connection-49, channel-114, transfer
-wormchain-testnet-0, 07-tendermint-48, connection-19, channel-17, transfer, elgafar-1, 07-tendermint-915, connection-897, channel-949, transfer
-wormchain-testnet-0, 07-tendermint-49, connection-20, channel-18, transfer, blumbus_111-1, 07-tendermint-40, connection-34, channel-23, transfer
-wormchain-testnet-0, 07-tendermint-50, connection-21, channel-19, transfer, osmo-test-5, 07-tendermint-3532, connection-3096, channel-7904, transfer
-wormchain-testnet-0, 07-tendermint-51, connection-22, channel-20, transfer, evmos_9000-4, 07-tendermint-185, connection-176, channel-240, transfer
+wormchain-testnet-0, 07-tendermint-41, connection-13, channel-13, wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj, pion-1, 07-tendermint-179, connection-153, channel-508, wasm.neutron1enf63k37nnv9cugggpm06mg70emcnxgj9p64v2s8yx7a2yhhzk2q6xesk4
+wormchain-testnet-0, 07-tendermint-52, connection-23, channel-21, transfer, osmo-test-5, 07-tendermint-3854, connection-3353, channel-8592, transfer
+wormchain-testnet-0, 07-tendermint-53, connection-24, channel-22, transfer, evmos_9000-4, 07-tendermint-189, connection-180, channel-244, transfer
+wormchain-testnet-0, 07-tendermint-54, connection-25, channel-23, transfer, elgafar-1, 07-tendermint-944, connection-936, channel-990, transfer
+wormchain-testnet-0, 07-tendermint-55, connection-26, channel-24, transfer, blumbus_111-1, 07-tendermint-46, connection-42, channel-30, transfer
+wormchain-testnet-0, 07-tendermint-56, connection-27, channel-25, transfer, injective-888, 07-tendermint-285, connection-252, channel-76997, transfer
+wormchain-testnet-0, 07-tendermint-57, connection-28, channel-26, transfer, harpoon-4, 07-tendermint-81, connection-53, channel-132, transfer
