@@ -2,22 +2,22 @@
   "$schema": "../ibc_data.schema.json",
   "chain_1": {
     "chain_name": "evmostestnet",
-    "client_id": "07-tendermint-185",
-    "connection_id": "connection-176"
+    "client_id": "07-tendermint-189",
+    "connection_id": "connection-180"
   },
   "chain_2": {
     "chain_name": "gatewaytestnet",
-    "client_id": "07-tendermint-51",
-    "connection_id": "connection-22"
+    "client_id": "07-tendermint-53",
+    "connection_id": "connection-24"
   },
   "channels": [
     {
       "chain_1": {
-        "channel_id": "channel-240",
+        "channel_id": "channel-244",
         "port_id": "transfer"
       },
       "chain_2": {
-        "channel_id": "channel-20",
+        "channel_id": "channel-22",
         "port_id": "transfer"
       },
       "ordering": "unordered",

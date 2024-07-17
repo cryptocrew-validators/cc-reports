@@ -6,12 +6,12 @@ denominator = '3'
 [chains.packet_filter]
 policy = 'allow'
 list = [  
-  ['transfer', 'channel-15'], # wormchain-testnet-0 to injective-888
-  ['transfer', 'channel-16'], # wormchain-testnet-0 to harpoon-4
-  ['transfer', 'channel-17'], # wormchain-testnet-0 to elgafar-1
-  ['transfer', 'channel-18'], # wormchain-testnet-0 to blumbus_111-1
-  ['transfer', 'channel-19'], # wormchain-testnet-0 to osmo-test-5
-  ['transfer', 'channel-20'], # wormchain-testnet-0 to evmos_9000-4
+  ['transfer', 'channel-25'], # wormchain-testnet-0 to injective-888
+  ['transfer', 'channel-26'], # wormchain-testnet-0 to harpoon-4
+  ['transfer', 'channel-23'], # wormchain-testnet-0 to elgafar-1
+  ['transfer', 'channel-24'], # wormchain-testnet-0 to blumbus_111-1
+  ['transfer', 'channel-21'], # wormchain-testnet-0 to osmo-test-5
+  ['transfer', 'channel-22'], # wormchain-testnet-0 to evmos_9000-4
   ['wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj', 'channel-11'], # wormchain-testnet-0 to pion-1
   ['wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj', 'channel-12'], # wormchain-testnet-0 to pion-1
   ['wasm.wormhole1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq0kdhcj', 'channel-13'], # wormchain-testnet-0 to pion-1
@@ -22,7 +22,7 @@ id = 'osmo-test-5'
 [chains.packet_filter]
 policy = 'allow'
 list = [  
-  ['transfer', 'channel-7904'], # Matched direct from wormchain-testnet-0
+  ['transfer', 'channel-8592'], # Matched direct from wormchain-testnet-0
 ]
 
 [[chains]]
@@ -30,15 +30,15 @@ id = 'injective-888'
 [chains.packet_filter]
 policy = 'allow'
 list = [  
-  ['transfer', 'channel-76973'], # Matched direct from wormchain-testnet-0
+  ['transfer', 'channel-76997'], # Matched direct from wormchain-testnet-0
 ]
 
 [[chains]]
 id = 'evmos_9000-4'
 [chains.packet_filter]
 policy = 'allow'
-list = [
-  ['transfer', 'channel-240'], # Matched direct from wormchain-testnet-0
+list = [  
+  ['transfer', 'channel-244'], # Matched direct from wormchain-testnet-0
 ]
 
 [[chains]]
@@ -46,7 +46,7 @@ id = 'elgafar-1'
 [chains.packet_filter]
 policy = 'allow'
 list = [  
-  ['transfer', 'channel-949'], # Matched direct from wormchain-testnet-0
+  ['transfer', 'channel-990'], # Matched direct from wormchain-testnet-0
 ]
 
 [[chains]]
@@ -64,7 +64,7 @@ id = 'blumbus_111-1'
 [chains.packet_filter]
 policy = 'allow'
 list = [  
-  ['transfer', 'channel-23'], # Matched direct from wormchain-testnet-0
+  ['transfer', 'channel-30'], # Matched direct from wormchain-testnet-0
 ]
 
 [[chains]]
@@ -72,7 +72,7 @@ id = 'harpoon-4'
 [chains.packet_filter]
 policy = 'allow'
 list = [  
-  ['transfer', 'channel-114'], # Matched direct from wormchain-testnet-0
+  ['transfer', 'channel-132'], # Matched direct from wormchain-testnet-0
 ]
 
 [[chains]]
@@ -80,5 +80,7 @@ id = 'atlantic-2'
 [chains.packet_filter]
 policy = 'allow'
 list = [
+
+# ['transfer','channel-4156'], # wormchaintestnet
 
 ]

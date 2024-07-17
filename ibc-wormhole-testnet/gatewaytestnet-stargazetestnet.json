@@ -2,22 +2,22 @@
   "$schema": "../ibc_data.schema.json",
   "chain_1": {
     "chain_name": "gatewaytestnet",
-    "client_id": "07-tendermint-48",
-    "connection_id": "connection-19"
+    "client_id": "07-tendermint-54",
+    "connection_id": "connection-25"
   },
   "chain_2": {
     "chain_name": "stargazetestnet",
-    "client_id": "07-tendermint-915",
-    "connection_id": "connection-897"
+    "client_id": "07-tendermint-944",
+    "connection_id": "connection-936"
   },
   "channels": [
     {
       "chain_1": {
-        "channel_id": "channel-17",
+        "channel_id": "channel-23",
         "port_id": "transfer"
       },
       "chain_2": {
-        "channel_id": "channel-949",
+        "channel_id": "channel-990",
         "port_id": "transfer"
       },
       "ordering": "unordered",
