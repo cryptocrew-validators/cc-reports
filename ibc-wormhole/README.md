@@ -2,15 +2,15 @@
 
 ## Channel List
 
-| Source Chain | Source Channel | Destination Chain   | Destination Channel | CC Relayer  | Active 08/24 |
-|--------------|----------------|---------------------|---------------------|-------------|--------------|
-| `wormchain`  | `channel-0`    | `pacific-1`         | `channel-4`         | ✅          |              |
-| `wormchain`  | `channel-3`    | `osmosis-1`         | `channel-2186`      | ✅          | ✅           |
-| `wormchain`  | `channel-5`    | `evmos_9001-2`      | `channel-94`        | ✅          | ✅           |
-| `wormchain`  | `channel-9`    | `kaiyo-1`           | `channel-113`       | ✅          | ✅           |
-| `wormchain`  | `channel-12`   | `stargaze-1`        | `channel-278`       | ✅          |              |
-| `wormchain`  | `channel-13`   | `injective-1`       | `channel-183`       | ✅          | ✅           |
-| `wormchain`  | `channel-14`   | `dymension_1100-1`  | `channel-34`        | ✅          |              |
+| Source Chain | Source Channel | Destination Chain   | Dest. Chain Name    | Destination Channel | CC Relayer  | Active 08/24 |
+|--------------|----------------|---------------------|---------------------|---------------------|-------------|--------------|
+| `wormchain`  | `channel-0`    | `pacific-1`         | Sei                 | `channel-4`         | ✅          |              |
+| `wormchain`  | `channel-3`    | `osmosis-1`         | Osmosis             | `channel-2186`      | ✅          | ✅           |
+| `wormchain`  | `channel-5`    | `evmos_9001-2`      | Evmos               | `channel-94`        | ✅          | ✅           |
+| `wormchain`  | `channel-9`    | `kaiyo-1`           | Kujira              | `channel-113`       | ✅          | ✅           |
+| `wormchain`  | `channel-12`   | `stargaze-1`        | Stargaze            | `channel-278`       | ✅          |              |
+| `wormchain`  | `channel-13`   | `injective-1`       | Injective           | `channel-183`       | ✅          | ✅           |
+| `wormchain`  | `channel-14`   | `dymension_1100-1`  | Dymension           | `channel-34`        | ✅          |              |
 
 ## Relayer Accounts
 - `wormchain`
