@@ -1,0 +1,8 @@
+CHAIN_ID, CLIENT, CONNECTION, CHANNEL, PORT, COUNTERPARTY_CHAIN, COUNTERPARTY_CLIENT, COUNTERPARTY_CONNECTION, COUNTERPARTY_CHANNEL, COUNTERPARTY_PORT
+glados-1, 07-tendermint-0, connection-0, channel-0, transfer, initiation-1, 07-tendermint-229, connection-143, channel-310, transfer
+glados-1, 07-tendermint-0, connection-0, channel-1, wasm.init1wug8sewp6cedgkmrmvhl3lf3tulagm9hnvy8p0rppz9yjw0g4wtq7947m6, initiation-1, 07-tendermint-229, connection-143, channel-311, nft-transfer
+glados-1, 07-tendermint-0, connection-0, channel-18, icacontroller-initiation-1.DELEGATION, initiation-1, 07-tendermint-229, connection-143, channel-464, icahost
+glados-1, 07-tendermint-0, connection-0, channel-3, icacontroller-initiation-1.FEE, initiation-1, 07-tendermint-229, connection-143, channel-316, icahost
+glados-1, 07-tendermint-0, connection-0, channel-4, icacontroller-initiation-1.WITHDRAWAL, initiation-1, 07-tendermint-229, connection-143, channel-315, icahost
+glados-1, 07-tendermint-0, connection-0, channel-5, icacontroller-initiation-1.REDEMPTION, initiation-1, 07-tendermint-229, connection-143, channel-312, icahost
+glados-1, 07-tendermint-0, connection-0, channel-7, icacontroller-initiation-1.COMMUNITY_POOL_RETURN, initiation-1, 07-tendermint-229, connection-143, channel-317, icahost
