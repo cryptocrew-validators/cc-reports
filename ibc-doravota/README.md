@@ -1,7 +1,7 @@
 # IBC-DORAVOTA
 
 ## Relayer Accounts
-| address                                   | chain     | 24.01.2024 | denom |
+| address                                   | chain     | funded amount | denom |
 |-------------------------------------------|-----------|------------|-------|
 | osmo1t59rf5hjnf5erlgnkk24gj8a43lp9djclujs5d | osmosis   | 200        | OSMO  |
 | cosmos1t59rf5hjnf5erlgnkk24gj8a43lp9djch8pqzl | cosmoshub | 50         | ATOM  |
@@ -12,10 +12,12 @@
 | sei1t59rf5hjnf5erlgnkk24gj8a43lp9djc6tsky7   | sei       | 300        | SEI   |
 | dydx1t59rf5hjnf5erlgnkk24gj8a43lp9djc770yzg  | dydx      | 200        | USDC  |
 | core1t59rf5hjnf5erlgnkk24gj8a43lp9djcyfem9y  | coreum    | 110        | CORE  |
+| archway1t59rf5hjnf5erlgnkk24gj8a43lp9djczvaygg  | archway    | 250        | ARCH  |
+| noble1t59rf5hjnf5erlgnkk24gj8a43lp9djcly5g63  | noble    | 80        | USDC  |
 
 ## Action items:
 - [x] Create substitution clients after vota-ash hardfork on osmosis and cosmoshub
-- [ ] Create client update proposals on osmosis and cosmoshub
+- [x] Create client update proposals on osmosis and cosmoshub
 
 ## Client substitution
 

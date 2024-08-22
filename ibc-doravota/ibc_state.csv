@@ -8,3 +8,5 @@ vota-ash, 07-tendermint-16, connection-10, channel-6, transfer, dydx-mainnet-1, 
 vota-ash, 07-tendermint-17, connection-11, channel-7, transfer, akashnet-2, 07-tendermint-183, connection-171, channel-125, transfer
 vota-ash, 07-tendermint-20, connection-24, channel-10, transfer, archway-1, 07-tendermint-66, connection-72, channel-101, transfer
 vota-ash, 07-tendermint-21, connection-27, channel-12, transfer, pacific-1, 07-tendermint-109, connection-153, channel-64, transfer
+vota-ash, 07-tendermint-22, connection-28, channel-13, transfer, archway-1, 07-tendermint-113, connection-106, channel-146, transfer
+vota-ash, 07-tendermint-23, connection-29, channel-14, transfer, noble-1, 07-tendermint-111, connection-106, channel-94, transfer
