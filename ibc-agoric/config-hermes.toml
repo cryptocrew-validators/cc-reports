@@ -1,0 +1,195 @@
+[[chains]]
+id = 'agoric-3'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['ica*', '*'], # ica wildcard
+  ['transfer', 'channel-1'], # agoric-3 to osmosis-1
+  ['transfer', 'channel-10'], # agoric-3 to secret-4
+  ['transfer', 'channel-11'], # agoric-3 to umee-1
+  ['transfer', 'channel-146'], # agoric-3 to neutron-1
+  ['transfer', 'channel-2'], # agoric-3 to crescent-1
+  ['transfer', 'channel-5'], # agoric-3 to cosmoshub-4
+  ['transfer', 'channel-55'], # agoric-3 to centauri-1
+  ['transfer', 'channel-57'], # agoric-3 to evmos_9001-2
+  ['transfer', 'channel-58'], # agoric-3 to omniflixhub-1
+  ['transfer', 'channel-59'], # agoric-3 to stride-1
+  ['transfer', 'channel-60'], # agoric-3 to archway-1
+  ['transfer', 'channel-62'], # agoric-3 to noble-1
+  ['transfer', 'channel-63'], # agoric-3 to kava_2222-10
+  ['transfer', 'channel-65'], # agoric-3 to stargaze-1
+  ['transfer', 'channel-68'], # agoric-3 to quicksilver-2
+  ['transfer', 'channel-69'], # agoric-3 to cronosmainnet_25-1
+  ['transfer', 'channel-72'], # agoric-3 to core-1
+  ['transfer', 'channel-9'], # agoric-3 to axelar-dojo-1
+]
+
+[[chains]]
+id = 'osmosis-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-320'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'cosmoshub-4'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-405'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'neutron-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-5789'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'axelar-dojo-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-41'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'stride-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-148'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'stargaze-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-231'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'noble-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-21'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'core-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['icacontroller-agoric-3.delegate', 'channel-584'], # Matched direct from agoric-3
+  ['icacontroller-agoric-3.rewards', 'channel-209'], # Matched direct from agoric-3
+  ['transfer', 'channel-202'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'kava_2222-10'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-133'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'evmos_9001-2'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-85'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'cronosmainnet_25-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-12'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'umee-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-42'], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'crescent-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+  [ 'transfer', 'channel-11' ], # Matched direct from agoric-3
+]
+
+[[chains]]
+id = 'pacific-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [ 
+
+]
+
+[[chains]]
+id = 'juno-1'
+[chains.trust_threshold]
+numerator = '2'
+denominator = '3'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+
+]
