@@ -1,0 +1,32 @@
+[[chains]]
+id = 'bbn-test-5'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-13'], # bbn-test-5 to axelar-testnet-lisbon-3
+  ['transfer', 'channel-7'], # bbn-test-5 to grand-1
+  ['transfer', 'channel-8'], # bbn-test-5 to provider
+]
+
+[[chains]]
+[chains.packet_filter]
+policy = "allow"
+list = [  
+  ['transfer', 'channel-347'], # Matched direct from bbn-test-5
+]
+
+[[chains]]
+id = 'axelar-testnet-lisbon-3'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-598'], # Matched direct from bbn-test-5
+]
+
+[[chains]]
+id = 'grand-1'
+[chains.packet_filter]
+policy = 'allow'
+list = [  
+  ['transfer', 'channel-329'], # Matched direct from bbn-test-5
+]
