@@ -4,6 +4,7 @@ id = 'bbn-test-5'
 policy = 'allow'
 list = [  
   ['transfer', 'channel-13'], # bbn-test-5 to axelar-testnet-lisbon-3
+  ['transfer', 'channel-17'], # bbn-test-5 to axelar-testnet-lisbon-3
   ['transfer', 'channel-7'], # bbn-test-5 to grand-1
   ['transfer', 'channel-8'], # bbn-test-5 to provider
 ]
@@ -21,6 +22,7 @@ id = 'axelar-testnet-lisbon-3'
 policy = 'allow'
 list = [  
   ['transfer', 'channel-598'], # Matched direct from bbn-test-5
+  ['transfer', 'channel-601'], # Matched direct from bbn-test-5
 ]
 
 [[chains]]

@@ -12,7 +12,7 @@
 | `bbn-test-5`       | `channel-10`     | `transfer`         | `eureka-hub-dev-5`  | `channel-0`           | `transfer`          |             |
 | `bbn-test-5`       | `channel-12`     | `transfer`         | `eureka-hub-dev-6`  | `channel-0`           | `transfer`          |             |
 | `bbn-test-5`       | `channel-13`     | `transfer`         | `axelar-testnet-lisbon-3` | `channel-598`   | `transfer`          |     ✅      |
-
+| `bbn-test-5`       | `channel-17`     | `transfer`         | `axelar-testnet-lisbon-3` | `channel-601`   | `transfer`          |     ✅      |
 
 ## Relayer Accounts
 - `bbn-test-5`
