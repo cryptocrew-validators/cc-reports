@@ -12,9 +12,9 @@
 | `agoric-3`         | `channel-11`     | `transfer`         | `umee-1`            | `channel-42`          | `transfer`          |     ✅      |
 | `agoric-3`         | `channel-55`     | `transfer`         | `centauri-1`        | `channel-13`          | `transfer`          |             |
 | `agoric-3`         | `channel-57`     | `transfer`         | `evmos_9001-2`      | `channel-85`          | `transfer`          |     ✅      |
-| `agoric-3`         | `channel-58`     | `transfer`         | `omniflixhub-1`     | `channel-30`          | `transfer`          |             |
+| `agoric-3`         | `channel-58`     | `transfer`         | `omniflixhub-1`     | `channel-30`          | `transfer`          |     ✅      |
 | `agoric-3`         | `channel-59`     | `transfer`         | `stride-1`          | `channel-148`         | `transfer`          |     ✅      |
-| `agoric-3`         | `channel-60`     | `transfer`         | `archway-1`         | `channel-20`          | `transfer`          |             |
+| `agoric-3`         | `channel-60`     | `transfer`         | `archway-1`         | `channel-20`          | `transfer`          |     ✅      |
 | `agoric-3`         | `channel-62`     | `transfer`         | `noble-1`           | `channel-21`          | `transfer`          |     ✅      |
 | `agoric-3`         | `channel-63`     | `transfer`         | `kava_2222-10`      | `channel-133`         | `transfer`          |     ✅      |
 | `agoric-3`         | `channel-65`     | `transfer`         | `stargaze-1`        | `channel-231`         | `transfer`          |     ✅      |
@@ -107,4 +107,14 @@ sei156wv4yef4h6xmqdkanyf7tyts2rjrmgcnptz55
 ```
 juno1p0ntdj6kt90efugqme9vjk88l2pg7tfh940fzn
 juno156wv4yef4h6xmqdkanyf7tyts2rjrmgcgle04f
+```
+- `archway-1`
+```
+archway1p0ntdj6kt90efugqme9vjk88l2pg7tfhxvsk0c
+archway156wv4yef4h6xmqdkanyf7tyts2rjrmgctxxscz
+```
+- `omniflixhub-1`
+```
+omniflix1p0ntdj6kt90efugqme9vjk88l2pg7tfhweatj3
+omniflix156wv4yef4h6xmqdkanyf7tyts2rjrmgcrntd9t
 ```
