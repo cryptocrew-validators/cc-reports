@@ -1,6 +1,6 @@
 # CryptoCrew IBC-AGORIC
 
-## Channel List
+## Transfer Channel List
 
 | Source Chain       | Source Channel   | Source Port        | Destination Chain   | Destination Channel   | Destination Port    | CC Relayer  |
 |--------------------|------------------|--------------------|---------------------|-----------------------|---------------------|-------------|
@@ -21,8 +21,6 @@
 | `agoric-3`         | `channel-68`     | `transfer`         | `quicksilver-2`     | `channel-125`         | `transfer`          |             |
 | `agoric-3`         | `channel-69`     | `transfer`         | `cronosmainnet_25-1` | `channel-12`          | `transfer`          |     ✅      |
 | `agoric-3`         | `channel-72`     | `transfer`         | `core-1`            | `channel-202`         | `transfer`          |     ✅      |
-| `agoric-3`         | `channel-73`     | `icahost`          | `core-1`            | `channel-209`         | `icacontroller-agoric-3.rewards` |     ✅      |
-| `agoric-3`         | `channel-91`     | `icahost`          | `quicksilver-2`     | `channel-177`         | `icacontroller-agoric-3.deposit` |           |
 | `agoric-3`         | `channel-146`    | `transfer`         | `neutron-1`         | `channel-5789`        | `transfer`          |     ✅      |
 
 
